@@ -7,7 +7,6 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="/assets/css/vue.css">
-  <link rel="stylesheet" href="/assets/css/gitalk.css">
   <script>
       var _hmt = _hmt || [];
       (function() {
@@ -20,17 +19,7 @@
 </head>
 <body>
 <div id="app">稍等哦,正在加载中...</div>
-  <div id="gitalk-container"></div>
 <script>
-    var gitalkConfig = {
-      clientID: '8c35308a4171ac4773d6',
-      clientSecret: '444d04291e0513205af8bf53d87824f5581bf746',
-      repo: 'booksea-zheng.github.io',
-      owner: 'BookSea-zheng',
-      admin: ["BookSea-zheng"],
-      id: location.pathname,
-      distractionFreeMode: false
-    };
   window.$docsify = {
   count:{
     countable:true,
@@ -61,7 +50,7 @@
       plugins: [
         function (hook, vm) {
           hook.doneEach(function() {
-            var label, domObj, main, divEle, gitalk;
+            var label, domObj, main, divEle;
             label = md5(decodeURI(vm.route.path.split("/").pop()));
             domObj = Docsify.dom;
             main = domObj.getNode("#main");
@@ -90,7 +79,6 @@
 
 <script src="/assets/js/md5.js"></script>
 <script src="/assets/js/docsify.min.js"></script>
-<script src="/assets/js/gitalk.min.js"></script>
   
 <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
 <script src="/assets/js/docsify-pagination.min.js"></script>

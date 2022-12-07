@@ -53,24 +53,7 @@
             var label, domObj, main, divEle;
             label = md5(decodeURI(vm.route.path.split("/").pop()));
             domObj = Docsify.dom;
-            main = domObj.getNode("#main");
-
-            Array.apply(
-              null,
-              document.querySelectorAll("div.gitalk-container")
-            ).forEach(function(ele) {
-              ele.remove();
-            });
-      
-            divEle = domObj.create("div");
-            divEle.id = "gitalk-container-" + label;
-            divEle.className = "gitalk-container";
-            divEle.style = "width: " + main.clientWidth + "px; margin: 0 auto 20px;";
-            domObj.appendTo(domObj.find(".content"), divEle);
-            gitalk = new Gitalk(
-              Object.assign(gitalkConfig, { id: !label ? "home" : label })
-            );
-            gitalk.render("gitalk-container-" + label);
+            main = domObj.getNode("#main");           
           });
         }
       ]
@@ -79,14 +62,13 @@
 
 <script src="/assets/js/md5.js"></script>
 <script src="/assets/js/docsify.min.js"></script>
-  
 <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
 <script src="/assets/js/docsify-pagination.min.js"></script>
 <script src="/assets/js/zoom-image.js"></script>
 <script src="/assets/js/prism-bash.js"></script>
 <script src="/assets/js/prism-java.min.js"></script>
 <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
 </body>
 </html>

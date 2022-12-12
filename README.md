@@ -1,6 +1,6 @@
 # 👉 推荐 [在线阅读](https://zhengshuhai.github.io/#/) 
 
-最近更新文章：[JVM篇 第2节：记忆集与卡表](https://github.com/ZhengShuHai/ZhengShuHai.github.io/blob/project/docs/md/jvm/记忆集与卡表.md)</br> 	— 更新时间：2022/12/9
+最近更新文章：[JVM篇 第3节：三色标记算法](https://github.com/ZhengShuHai/ZhengShuHai.github.io/blob/project/docs/md/jvm/三色标记算法.md)	— 更新时间：2022/12/9
 **文章每周至少一更**，记录的都是自己学习的感悟，如果有帮助到大家，希望点个**Star**！让我有持续的动力，感谢🤝</br>
 
 由于最近在看《深入理解Java虚拟机 第3版本》这本书，所以开篇先从JVM篇开始

@@ -4,7 +4,6 @@
   <a href="https://blog.csdn.net/bookssea"><img src="https://img.shields.io/badge/csdn-CSDN-red.svg" alt="投稿"></a>
   <a href="https://juejin.im/user/59b416065188257e671b670a"><img src="https://img.shields.io/badge/juejin-掘金-blue.svg" alt="公众号"></a>
   <a href="https://www.cnblogs.com/aobing/"><img src="https://img.shields.io/badge/cnblogs-博客园-important.svg" alt="投稿"></a>
-  <a href="https://www.zhihu.com/people/aobingJava/activities"><img src="https://img.shields.io/badge/zhihu-知乎-informational" alt="投稿"></a>
 </p>
 
 # 👉 推荐 [在线阅读](https://zhengshuhai.github.io/#/) 

@@ -1,9 +1,9 @@
 <p align="center">
   <a href="#微信"><img src="https://img.shields.io/badge/weChat-微信群-blue.svg" alt="微信群"></a>
-  <a href="#公众号"><img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-三太子敖丙-lightgrey.svg" alt="公众号"></a>
+  <a href="#公众号"><img src="" alt="公众号"></a>
   <a href="https://blog.csdn.net/bookssea"><img src="https://img.shields.io/badge/csdn-CSDN-red.svg" alt="投稿"></a>
   <a href="https://juejin.cn/user/2837192913204935"><img src="https://img.shields.io/badge/juejin-掘金-blue.svg" alt="公众号"></a>
-  <a href="https://www.cnblogs.com/aobing/"><img src="https://img.shields.io/badge/cnblogs-博客园-important.svg" alt="投稿"></a>
+  <a href=""><img src="https://img.shields.io/badge/cnblogs-博客园-important.svg" alt="投稿"></a>
 </p>
 
 # 👉 推荐 [在线阅读](https://zhengshuhai.github.io/#/) 

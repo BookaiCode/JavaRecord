@@ -8,7 +8,7 @@
 </p>
 
 
-**文章每周至少一更，首发公众号**，记录的都是自己学习的感悟，如果有帮助到大家，希望点个**Star**！让我有持续的动力，感谢🤝</br>
+**文章每周至少一更，首发公众号**。如果有帮助到大家，希望点个**Star**！让我有持续的动力，感谢🤝</br>
 
 最近更新文章：[JVM篇 第6节：CMS意志的继承者—G1](https://github.com/ZhengShuHai/ZhengShuHai.github.io/blob/project/docs/md/jvm/CMS意志的继承者—G1.md)        — `更新时间：2022/12/16`</br>
 

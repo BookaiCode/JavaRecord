@@ -1,4 +1,4 @@
-![](docs/assets/img/Java Record.png)
+![](docs/assets/img/JavaRecord.png)
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Author-BookSea-orange.svg" alt="作者"></a>
   <a href="#公众号"><img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-Java随想录-lightgrey.svg" alt="公众号"></a>
@@ -26,6 +26,7 @@
        
    - 第2章：MySQL
 
-  <a name="微信"></a>  <a name="公众号"></a>
+
   **关注我，我们一起交流技术**
+  <a name="微信"></a>  <a name="公众号"></a>
   ![](docs/assets/img/公众号.jpg)

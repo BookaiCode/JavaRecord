@@ -1,15 +1,15 @@
 <p align="center">
-  <a href="#微信"><img src="https://img.shields.io/badge/weChat-微信群-blue.svg" alt="微信群"></a>
-  <a href="#公众号"><img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-三太子敖丙-lightgrey.svg" alt="公众号"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Author-BookSea-orange.svg" alt="作者"></a>
+  <a href="#公众号"><img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-Java随想录-lightgrey.svg" alt="公众号"></a>
   <a href="https://blog.csdn.net/bookssea"><img src="https://img.shields.io/badge/csdn-CSDN-red.svg" alt="投稿"></a>
   <a href="https://juejin.cn/user/2837192913204935"><img src="https://img.shields.io/badge/juejin-掘金-blue.svg" alt="公众号"></a>
   <a href="https://www.cnblogs.com/booksea/"><img src="https://img.shields.io/badge/cnblogs-博客园-important.svg" alt="投稿"></a>
 </p>
 
 # 👉 推荐 [在线阅读](https://zhengshuhai.github.io/#/) 
+**文章每周至少一更，首发公众号**，记录的都是自己学习的感悟，如果有帮助到大家，希望点个**Star**！让我有持续的动力，感谢🤝</br>
 
 最近更新文章：[JVM篇 第6节：CMS意志的继承者—G1](https://github.com/ZhengShuHai/ZhengShuHai.github.io/blob/project/docs/md/jvm/CMS意志的继承者—G1.md)        — `更新时间：2022/12/16`</br>
-**文章每周至少一更**，记录的都是自己学习的感悟，如果有帮助到大家，希望点个**Star**！让我有持续的动力，感谢🤝</br>
 
 由于最近在看《深入理解Java虚拟机 第3版本》这本书，所以开篇先从JVM篇开始
 
@@ -24,3 +24,7 @@
        - [第6节：CMS意志的继承者—G1](https://github.com/ZhengShuHai/ZhengShuHai.github.io/blob/project/docs/md/jvm/CMS意志的继承者—G1.md)
        
    - 第2章：MySQL
+
+  <a name="微信"></a>  <a name="公众号"></a>
+  **关注我，我们一起交流技术**
+  ![](C:\Users\12429\Desktop\code\ZhengShuHai.github.io\docs\assets\img\公众号.jpg)

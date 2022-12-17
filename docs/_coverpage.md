@@ -2,8 +2,9 @@
 
 # Java随想录
 
-- 一个人必须不停地写作，才能不被茫茫人海淹没
-    
+- 路虽远，行则将至；事虽难，做则必成。
+  
+
 [![stars](https://badgen.net/github/stars/ZhengShuHai/ZhengShuHai.github.io?icon=github&color=4ab8a1)](https://github.com/ZhengShuHai/ZhengShuHai.github.io) [![forks](https://badgen.net/github/forks/ZhengShuHai/ZhengShuHai.github.io?icon=github&color=4ab8a1)](https://github.com/ZhengShuHai/ZhengShuHai.github.io) 
 
 [GitHub](<https://github.com/ZhengShuHai/ZhengShuHai.github.io>)

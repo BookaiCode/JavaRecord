@@ -21,6 +21,6 @@
        - [第3节：三色标记算法](https://github.com/ZhengShuHai/ZhengShuHai.github.io/blob/project/docs/md/jvm/三色标记算法.md)
        - [第4节：经典垃圾回收器](https://github.com/ZhengShuHai/ZhengShuHai.github.io/blob/project/docs/md/jvm/经典垃圾回收器.md)
        - [第5节：伟大的开端—CMS](https://github.com/ZhengShuHai/ZhengShuHai.github.io/blob/project/docs/md/jvm/伟大的开端—CMS.md)
-       - [第6节：三色标记算法](https://github.com/ZhengShuHai/ZhengShuHai.github.io/blob/project/docs/md/jvm/CMS意志的继承者—G1.md)
+       - [第6节：CMS意志的继承者—G1](https://github.com/ZhengShuHai/ZhengShuHai.github.io/blob/project/docs/md/jvm/CMS意志的继承者—G1.md)
        
    - 第2章：MySQL

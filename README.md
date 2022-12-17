@@ -8,7 +8,7 @@
 
 # 👉 推荐 [在线阅读](https://zhengshuhai.github.io/#/) 
 
-最近更新文章：[JVM篇 第3节：三色标记算法](https://github.com/ZhengShuHai/ZhengShuHai.github.io/blob/project/docs/md/jvm/三色标记算法.md)        — `更新时间：2022/12/9`</br>
+最近更新文章：[JVM篇 第6节：CMS意志的继承者—G1](https://github.com/ZhengShuHai/ZhengShuHai.github.io/blob/project/docs/md/jvm/CMS意志的继承者—G1.md)        — `更新时间：2022/12/16`</br>
 **文章每周至少一更**，记录的都是自己学习的感悟，如果有帮助到大家，希望点个**Star**！让我有持续的动力，感谢🤝</br>
 
 由于最近在看《深入理解Java虚拟机 第3版本》这本书，所以开篇先从JVM篇开始
@@ -19,5 +19,8 @@
        - [第1节：根节点枚举与安全点](https://github.com/ZhengShuHai/ZhengShuHai.github.io/blob/project/docs/md/jvm/根节点枚举与安全点.md)
        - [第2节：记忆集与卡表](https://github.com/ZhengShuHai/ZhengShuHai.github.io/blob/project/docs/md/jvm/记忆集与卡表.md)
        - [第3节：三色标记算法](https://github.com/ZhengShuHai/ZhengShuHai.github.io/blob/project/docs/md/jvm/三色标记算法.md)
+       - [第4节：经典垃圾回收器](https://github.com/ZhengShuHai/ZhengShuHai.github.io/blob/project/docs/md/jvm/经典垃圾回收器.md)
+       - [第5节：伟大的开端—CMS](https://github.com/ZhengShuHai/ZhengShuHai.github.io/blob/project/docs/md/jvm/伟大的开端—CMS.md)
+       - [第6节：三色标记算法](https://github.com/ZhengShuHai/ZhengShuHai.github.io/blob/project/docs/md/jvm/CMS意志的继承者—G1.md)
        
    - 第2章：MySQL

@@ -27,4 +27,4 @@
 
   <a name="微信"></a>  <a name="公众号"></a>
   **关注我，我们一起交流技术**
-  ![](C:\Users\12429\Desktop\code\ZhengShuHai.github.io\docs\assets\img\公众号.jpg)
+  ![](docs/assets/img/公众号.jpg)

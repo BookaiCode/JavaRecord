@@ -1,3 +1,4 @@
+![](docs/assets/img/Java Record.png)
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Author-BookSea-orange.svg" alt="作者"></a>
   <a href="#公众号"><img src="https://img.shields.io/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-Java随想录-lightgrey.svg" alt="公众号"></a>

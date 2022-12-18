@@ -29,4 +29,4 @@
 # 关注我，我们一起交流技术
 
   <a name="微信"></a>  <a name="公众号"></a>
-  ![](docs/assets/img/公众号.jpg)
+![公众号.jpg](https://pic8.58cdn.com.cn/nowater/webim/big/n_v21e163f266a554146b0a791b5d35839b3.jpg)

@@ -17,7 +17,7 @@ CMS整个过程分为四个步骤，包括：
 
 **由于在整个过程中耗时最长的并发标记和并发清除阶段中**，垃圾收集器线程都可以与用户线程一起工作，所以从总体上来说，CMS收集器的内存回收过程是与用户线程一起并发执行的。
 
-![image-20221216143634284](assets/image-20221216143634284.png)
+![image-20221216143634284](https://raw.githubusercontent.com/ZhengShuHai/PicGo-MarkDown/master/img/jvm/202212181150540.png)
 
 ## CMS的缺陷
 

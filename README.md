@@ -10,7 +10,7 @@
 
 **文章每周至少一更，首发公众号**。如果有帮助到大家，希望点个**Star**！让我有持续的动力，感谢🤝</br>
 
-最近更新文章：[JVM篇 第6节：CMS意志的继承者—G1](https://github.com/ZhengShuHai/ZhengShuHai.github.io/blob/project/docs/md/jvm/CMS意志的继承者—G1.md)        — `更新时间：2022/12/16`</br>
+最近更新文章：[JVM篇 第6节：CMS意志的继承者—G1](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247483838&idx=1&sn=65a9a2a0c77a46cd4de9ce96abdea149&chksm=cf84727bf8f3fb6d06b9c975bbf76bbea2bd5d8bf5337d27ec3edf71fa2bc6d68e4f20ae6058#rd)        — `更新时间：2022/12/16`</br>
 
 由于最近在看《深入理解Java虚拟机 第3版本》这本书，所以开篇先从JVM篇开始
 

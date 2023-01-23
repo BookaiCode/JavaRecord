@@ -81,4 +81,4 @@ HotSpot使用的是可达性分析算法，该算法需要进行根节点枚举�
 
 如果本篇博客有任何错误和建议，欢迎给我留言指正。文章持续更新，可以关注公众号第一时间阅读。 
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScMwaNHnWosGDIoEy59akwNWDeafZw4qsTibBZIgfzUUqwY8aeE9gWXlBEsFWFZaAX0jVrfMlHkLBFg/0?wx_fmt=png)
+![img](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScPibyOvOuNiasKa7qicaZgo5DIcDAickDKoU6KZUmLyibpnRc6ibzTxT9WAnkfPhFcq6iamGRo2ITZlPPczA/0?wx_fmt=jpeg)

@@ -16,13 +16,13 @@
 
 ###  :page_facing_up: JVM  ###
 
-- [如何判定对象已死？](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247483883&idx=1&sn=bc4c92a7737ca6d725465746063cc338&chksm=cf84722ef8f3fb38a8c5b0b6a220a528b79ee1040699810024784a1d8735450a33e7d4345575#rd)
-- [根节点枚举与安全点](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247483723&idx=1&sn=832533651b58f6c1725ca0e6ec5ba7b8&chksm=cf84728ef8f3fb981ef04f316974737457ce0b23909cb7407d00469af6776839c4a759fdbe7a#rd)
-- [记忆集与卡表](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247483830&idx=1&sn=5d886e14a5a0d06f8bd61e6b99a4fe58&chksm=cf847273f8f3fb65a1a81dd38e54ad3393c7bada3161a71d5189436ba62e71e69dc403cd2d8a#rd)
-- [三色标记算法](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247483840&idx=1&sn=10b0c17fa4c36e009df8bbc158cf0b51&chksm=cf847205f8f3fb135f5b6200053839bf7c973ab60f8636b7982f528a4ed828a7866afaa0bb16#rd)
-- [经典垃圾回收器](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247483842&idx=1&sn=bc07219432664b1d1e75d480d9c2b934&chksm=cf847207f8f3fb1139d7779957b98ba09d13291964a7d1b549f9dfabcc4610fe36849c4301fb#rd)
-- [伟大的开端—CMS](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247483846&idx=1&sn=11d126113003f68de397ab954680b46b&chksm=cf847203f8f3fb15eefcaa97a5e356d63c6f7c104a3793ab525019b31648fb0dc0777659ae12#rd)
-- [CMS意志的继承者—G1](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247483848&idx=1&sn=072e44aaa3167de5f6bb8833f7c09d3b&chksm=cf84720df8f3fb1be12b0ee95e9d300ac5ce2ca911777603eb2f165b43ba6215a8491aded813#rd)
+- [面试官：JVM是如何判定对象已死的？](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484050&idx=1&sn=c602bc071890ad70f56acc74618f42a6&chksm=cf847157f8f3f8410131e3d3f4586a115fec46cbd5a9419aa81efd76b1fb72c57d1d3557e808#rd)
+- [聊聊GC是如何快速枚举根节点的](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484059&idx=1&sn=b0f615445c6549d08030baf87cbccf96&chksm=cf84715ef8f3f848a958f83c32900fae374f296699299395d01ce3519fd7430ea45ecec2c476#rd)
+- [JVM是如何解决跨代引用问题的？](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484071&idx=1&sn=ab54a47fc650bc3bfff420d1b8b086db&chksm=cf847162f8f3f874a85f617e0c23b7b077659286a14345d5aa4b09c5e50b3c5f545eba9029e1#rd)
+- [一文弄懂三色标记算法](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484079&idx=1&sn=7f584b390a565b1a3b0e4b72913c76ce&chksm=cf84716af8f3f87cd85a90cc722943a04acfca0f176611514125b41a7961f1ad202982aba636#rd)
+- [垃圾收集器必问系列—CMS](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484088&idx=1&sn=ea20a3a9c2870dade04177c8ea074f44&chksm=cf84717df8f3f86bd1a0842db66f1f013394be77c3e31db9eb070cec9c8a36f462bd378e3ed3#rd)
+- [垃圾收集器必问系列—G1](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484096&idx=1&sn=12c314b3f9433c4f7f15c17ee0e14df7&chksm=cf847105f8f3f813bc957e3f85d6e4a8bf157060d095e1a4fc20e98c20a96bb2ac73ca039482#rd)
+- [垃圾收集器必问系列—ZGC](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484106&idx=1&sn=a31c010f0cf001d0091d684b78d909f0&chksm=cf84710ff8f3f8192b038a5099c6b3ce0de1822f1d0881ff20b0d38d9e7578a3ffcccf5970e1#rd)
 
 ###  :hammer: MySQL  ###
 

@@ -4,7 +4,7 @@
 
 纵观全书《深入理解JVM虚拟机》第三版，在垃圾回收器这一篇章，对于CMS的笔墨是非常多的。CMS收集器是HotSpot虚拟机追求低停顿的第一次成功尝试，CMS 可以说是垃圾回收器的一个里程碑，其开启了 GC 回收器关注 GC 停顿时间的历史。
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScNSWyYdcwhyuGyFAHA8HjTSicRd14q6xUND92YbCXkQEPMItxxxAjnstkFN4aWZ9mloQMYickSv4IQQ/0?wx_fmt=jpeg)
+![](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScNSWyYdcwhyuGyFAHA8HjTSicRd14q6xUND92YbCXkQEPMItxxxAjnstkFN4aWZ9mloQMYickSv4IQQ/0?wx_fmt=jpeg)
 
 ## CMS简介
 
@@ -30,13 +30,13 @@ CMS整个过程分为四个步骤，包括：
 
 **由于在整个过程中耗时最长的并发标记和并发清除阶段中**，垃圾收集器线程都可以与用户线程一起工作，所以从总体上来说，CMS收集器的内存回收过程是与用户线程一起并发执行的。
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScNSWyYdcwhyuGyFAHA8HjTSDCu3CePySY7t7ic41QzWtUDrXZEYfyRxKzL6K9uiaibLgPxwuOCgIscWw/0?wx_fmt=png)
+![](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScNSWyYdcwhyuGyFAHA8HjTSDCu3CePySY7t7ic41QzWtUDrXZEYfyRxKzL6K9uiaibLgPxwuOCgIscWw/0?wx_fmt=png)
 
 ## CMS的缺陷
 
 **CMS有三个最大的缺点**
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScNSWyYdcwhyuGyFAHA8HjTSK2A60QHmdkDO6mCvabgnxVYbtp6CwAJ4iceicv1YelBhEoD8lcYWbicfQ/0?wx_fmt=jpeg)
+![](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScNSWyYdcwhyuGyFAHA8HjTSK2A60QHmdkDO6mCvabgnxVYbtp6CwAJ4iceicv1YelBhEoD8lcYWbicfQ/0?wx_fmt=jpeg)
 
 ### 处理器资源敏感
 
@@ -54,7 +54,7 @@ CMS收集器是比较消耗CPU资源的，对处理器资源是比较敏感的�
 
 **在CMS的并发标记和并发清理阶段，用户线程是还在继续运行的，程序在运行自然就还会伴随有新的垃圾对象不断产生，但这一部分垃圾对象是出现在标记过程结束以后，CMS无法在当次收集中处理掉它们，只好留待下一次垃圾收集时再清理掉。这一部分垃圾就称为“浮动垃圾”。**
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScNSWyYdcwhyuGyFAHA8HjTSXoBeQ2CXibziak9ArfibSKXCRXM14nL24yczSeiaia2hgZTmVAzPal2t7hA/0?wx_fmt=jpeg)
+![](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScNSWyYdcwhyuGyFAHA8HjTSXoBeQ2CXibziak9ArfibSKXCRXM14nL24yczSeiaia2hgZTmVAzPal2t7hA/0?wx_fmt=jpeg)
 
 由于在垃圾收集阶段用户线程还需要持续运行，那就还需要预留足够内存空间提供给用户线程使用，因此CMS收集器不能像其他收集器那样等待到老年代几乎完全被填满了再进行收集，**在JDK5的默认设置下，CMS收集器当老年代使用了68%的空间后就会被激活。到了JDK 6时，CMS收集器的启动阈值就已经默认提升至92%**，我们可以通过 `-XX:CMSInitiatingOccupancyFraction` 参数自行调节。
 
@@ -70,4 +70,4 @@ CMS是一款基于“标记-清除”算法实现的收集器，在垃圾收集�
 
 如果本篇博客有任何错误和建议，欢迎给我留言指正。文章持续更新，可以关注公众号第一时间阅读。
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScPibyOvOuNiasKa7qicaZgo5DIcDAickDKoU6KZUmLyibpnRc6ibzTxT9WAnkfPhFcq6iamGRo2ITZlPPczA/0?wx_fmt=jpeg)
+![](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScPibyOvOuNiasKa7qicaZgo5DIcDAickDKoU6KZUmLyibpnRc6ibzTxT9WAnkfPhFcq6iamGRo2ITZlPPczA/0?wx_fmt=jpeg)

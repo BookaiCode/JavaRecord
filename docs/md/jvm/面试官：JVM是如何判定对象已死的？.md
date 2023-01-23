@@ -4,7 +4,7 @@
 
 在堆里面存放着Java世界中几乎所有的对象实例，垃圾收集器在对堆进行回收前，第一件事情就是要确定这些对象之中哪些还“存活”着，哪些已经“死去”（“死去”即不可能再被任何途径使用的对象）了。
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScMwaNHnWosGDIoEy59akwNWB3MPkKOkhyeO31I6fSrAsCBkGqRLfGICZUKyibZzS1PdomQK1GeG6hA/0?wx_fmt=jpeg)
+![](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScMwaNHnWosGDIoEy59akwNWB3MPkKOkhyeO31I6fSrAsCBkGqRLfGICZUKyibZzS1PdomQK1GeG6hA/0?wx_fmt=jpeg)
 
 下文围绕这个话题，展开聊聊。
 
@@ -36,7 +36,7 @@ HotSpot虚拟机并不是通过引用计数算法来判断对象是否存活的�
 
 JVM通过可达性分析（Reachability Analysis）算法来判定对象是否存活的。这个算法的基本思路就是通过一系列称为`GC Roots`的根对象作为起始节点集，从这些节点开始，根据引用关系向下搜索，搜索过程所走过的路径称为`引用链（Reference Chain）`，**如果某个对象到GC Roots间没有任何引用链相连，或者用图论的话来说就是从GC Roots到这个对象不可达时，则证明此对象是不可能再被使用的。**
 
-![image.png](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScPibyOvOuNiasKa7qicaZgo5DI0kVMsGvTDYKicf5GX8X6xZbtfpOZpKXJZBicib3ZeVyL8jfgCaYiaVzBKw/0?wx_fmt=png)
+![](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScPibyOvOuNiasKa7qicaZgo5DI0kVMsGvTDYKicf5GX8X6xZbtfpOZpKXJZBicib3ZeVyL8jfgCaYiaVzBKw/0?wx_fmt=png)
 
 如图，对象object 5、object 6、object 7到GC Roots是不可达的，因此它们将会被判定为可回收的对象。
 
@@ -51,7 +51,7 @@ JVM通过可达性分析（Reachability Analysis）算法来判定对象是否�
 
 目前所有的垃圾收集器在**根节点枚举**这一步骤时都是必须暂停用户线程的，这里面细讲东西很多，先埋个坑，之后出篇文章来讲根节点枚举。
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScMwaNHnWosGDIoEy59akwNWqdZKlesyiarRNKCbsXN6Sbg9GemFrEHweT3THgBRTLB7oc2y8jX10gA/0?wx_fmt=jpeg)
+![](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScMwaNHnWosGDIoEy59akwNWqdZKlesyiarRNKCbsXN6Sbg9GemFrEHweT3THgBRTLB7oc2y8jX10gA/0?wx_fmt=jpeg)
 
 ## 引用类型
 
@@ -64,13 +64,13 @@ Java将引用分为`强引用（Strongly Re-ference）`、`软引用（Soft Refe
 
 **总结一句话就是：强引用内存不足也不会回收，软引用内存不足才回收，弱引用和虚引用看见就回收。**
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScMwaNHnWosGDIoEy59akwNWMkiajPIyHSxI8SCMIM5lzEso7oRH9do4wibQrywybfyy25sUu8fuWIyA/0?wx_fmt=jpeg)
+![](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScMwaNHnWosGDIoEy59akwNWMkiajPIyHSxI8SCMIM5lzEso7oRH9do4wibQrywybfyy25sUu8fuWIyA/0?wx_fmt=jpeg)
 
 ## Dead Or Alive
 
 在可达性分析算法中判定为不可达的对象，就"非死不可"吗？
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScMwaNHnWosGDIoEy59akwNWlAyoH8iabTVRRqVBl6icWicTmWCI6Z5DnA4UiaPoNeWHmcTWTQlg5MXgDw/0?wx_fmt=jpeg)
+![](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScMwaNHnWosGDIoEy59akwNWlAyoH8iabTVRRqVBl6icWicTmWCI6Z5DnA4UiaPoNeWHmcTWTQlg5MXgDw/0?wx_fmt=jpeg)
 
 
 当一个对象被判断为不可达的时候，这时候该对象处在“**缓刑**”阶段，要真正宣告一个对象死亡，至少要经历**两次标记过程**：
@@ -85,11 +85,11 @@ Java将引用分为`强引用（Strongly Re-ference）`、`软引用（Soft Refe
 
 看起来对象能够使用finalize()方法实现自我救赎，然而这个方法并没有什么用，放一段书里的原话。
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScMwaNHnWosGDIoEy59akwNWAv4wvzeX85RIOqiaEHo8VPCQWOuQFgnT3Vic6nn7Uia4fxWLibjXc2fnibQ/0?wx_fmt=png)
+![](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScMwaNHnWosGDIoEy59akwNWAv4wvzeX85RIOqiaEHo8VPCQWOuQFgnT3Vic6nn7Uia4fxWLibjXc2fnibQ/0?wx_fmt=png)
 
 **总结一下，就是finalize()这个方法并没什么卵用。**
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScMwaNHnWosGDIoEy59akwNWD6MSKWIKj6Lpcr1Fkg4LSc2CWaXQUvW45lVX99UrqNhDUsiawvbQOaw/0?wx_fmt=jpeg)
+![](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScMwaNHnWosGDIoEy59akwNWD6MSKWIKj6Lpcr1Fkg4LSc2CWaXQUvW45lVX99UrqNhDUsiawvbQOaw/0?wx_fmt=jpeg)
 
 ## 永久代真的"永久"吗？
 
@@ -123,7 +123,7 @@ Java虚拟机被允许对满足上述三个条件的无用类进行回收，这�
 
   下图为使用“标记-清除”算法回收前后的状态：
 
-![image.png](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScPibyOvOuNiasKa7qicaZgo5DIlwk2aG7HfTV7ic6pfyyDKZdvxYOd7epXiaZaOFfqmUoNbGYAWXtibtEkg/0?wx_fmt=png)
+![](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScPibyOvOuNiasKa7qicaZgo5DIlwk2aG7HfTV7ic6pfyyDKZdvxYOd7epXiaZaOFfqmUoNbGYAWXtibtEkg/0?wx_fmt=png)
 
 **后续的收集算法大多都是以标记-清除算法为基础，对其缺点进行改进而得到的。**
 
@@ -141,7 +141,7 @@ Java虚拟机被允许对满足上述三个条件的无用类进行回收，这�
 
 下图为使用复制算法回收前后的状态：
 
-![image.png](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScPibyOvOuNiasKa7qicaZgo5DIQ8GVica6uibbJbwPENbKEJ0W4IWG513f6icgrCDE7lZnEAI2nOibrO1uBw/0?wx_fmt=png)
+![](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScPibyOvOuNiasKa7qicaZgo5DIQ8GVica6uibbJbwPENbKEJ0W4IWG513f6icgrCDE7lZnEAI2nOibrO1uBw/0?wx_fmt=png)
 
 ### 标记-整理算法
 
@@ -152,7 +152,7 @@ Java虚拟机被允许对满足上述三个条件的无用类进行回收，这�
 
 下图为使用“标记-整理”算法回收前后的状态：
 
-![image.png](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScPibyOvOuNiasKa7qicaZgo5DIFsjAe27ynC6B5jdoHY4bMLe9bdAWF6G7TlGaukgusdRo379Ib1Vic6Q/0?wx_fmt=png)
+![](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScPibyOvOuNiasKa7qicaZgo5DIFsjAe27ynC6B5jdoHY4bMLe9bdAWF6G7TlGaukgusdRo379Ib1Vic6Q/0?wx_fmt=png)
 
 ### 标记-清除 VS 标记-整理
 
@@ -174,7 +174,7 @@ Java虚拟机被允许对满足上述三个条件的无用类进行回收，这�
 
 如果本篇博客有任何错误和建议，欢迎给我留言指正。文章持续更新，可以关注公众号第一时间阅读。
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScPibyOvOuNiasKa7qicaZgo5DIcDAickDKoU6KZUmLyibpnRc6ibzTxT9WAnkfPhFcq6iamGRo2ITZlPPczA/0?wx_fmt=jpeg)
+![](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScPibyOvOuNiasKa7qicaZgo5DIcDAickDKoU6KZUmLyibpnRc6ibzTxT9WAnkfPhFcq6iamGRo2ITZlPPczA/0?wx_fmt=jpeg)
 
 
 

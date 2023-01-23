@@ -4,7 +4,7 @@
 
 ZGC有人称它为Zero GC，其实“Z”并非什么专业名词的缩写，这款收集器的名字就叫作Z Garbage Collector。根据OpenJDK官方网站的说明ZGC其实并没有什么特殊意义，就是一个名字而已。起初只是为了致敬ZFS 文件系统，表示ZGC与ZFS一样都是革命性的，是一个跨时代的产品。更像是一种崇拜命名法。所以ZGC就是要做革命性的与以往的垃圾回收器性能上有很大提高的GC。
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScN5ZQDrWcz1BTEWTN8giciclWhwaesMQ5aLsRFe475StUDKcHYT5ExshTRicfyBJu1p5P5LZFSxT99ibA/0?wx_fmt=jpeg)
+![](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScN5ZQDrWcz1BTEWTN8giciclWhwaesMQ5aLsRFe475StUDKcHYT5ExshTRicfyBJu1p5P5LZFSxT99ibA/0?wx_fmt=jpeg)
 
 ZGC的目标是希望在尽可能对吞吐量影响不太大的前提下 ，实现在任意堆内存大小下都可以把垃圾收集的停顿时间限制在十毫秒以内的低延迟。
 
@@ -18,7 +18,7 @@ ZGC的目标是希望在尽可能对吞吐量影响不太大的前提下 ，实�
 - 中型Region（Medium Region）：容量固定为32MB，用于放置大于等于256KB但小于4MB的对象。
 - 大型Region（Large Region）：容量不固定，可以动态变化，但必须为2MB的整数倍，用于放置4MB或以上的大对象。每个大型Region中只会存放一个大对象，这也预示着虽然名字叫作“大型Region”，但它的实际容量完全有可能小于中型Region，最小容量可低至4MB。大型Region在ZGC的实现中是不会被重分配的，因为复制一个大对象的代价非常高昂。
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScN5ZQDrWcz1BTEWTN8giciclWLPiah6F9vNWdHVy3qgILXQsqibW3ogyCbgUibLIXJNrWeU0e0ZMFDJ0rA/0?wx_fmt=png)
+![](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScN5ZQDrWcz1BTEWTN8giciclWLPiah6F9vNWdHVy3qgILXQsqibW3ogyCbgUibLIXJNrWeU0e0ZMFDJ0rA/0?wx_fmt=png)
 
 ## 读屏障
 
@@ -38,7 +38,7 @@ ZGC 出现之前， GC 信息保存在对象头的 Mark Word 中，如对象的�
 
 染色指针是一种直接将少量额外的信息存储在指针上的技术，Linux下64位指针的高18位不能用来寻址，ZGC的染色指针技术盯上了这剩下的46位指针宽度，**将其高4位提取出来存储四个标志信息**。当然，由于这些标志位进一步压缩了原本就只有46位的地址空间，也直接导致ZGC能够管理的内存不可以超过4TB（2的42次幂）
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScN5ZQDrWcz1BTEWTN8giciclWjK6GhuQs0EpsgOkhP6icLo9Z4BeNG1erGWCUKRmwqWmMCMt5MxGn7iaA/0?wx_fmt=png)
+![](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScN5ZQDrWcz1BTEWTN8giciclWjK6GhuQs0EpsgOkhP6icLo9Z4BeNG1erGWCUKRmwqWmMCMt5MxGn7iaA/0?wx_fmt=png)
 
 JVM 可以从指针上直接看到对象的三色标记状态（Marked0、Marked1）、是否进入了重分配集（Remapped）、是否需要通过 finalize 方法来访问到（Finalizable）。
 
@@ -63,7 +63,7 @@ JVM 可以从指针上直接看到对象的三色标记状态（Marked0、Marked
 
 ZGC的运作过程大致可划分为以下四个大的阶段。**全部四个阶段都是可以并发执行的，仅是两个阶段中间会存在短暂的停顿小阶段**，这些小阶段，譬如初始化GC Root直接关联对象的Mark Start，ZGC的运作过程具体如图所示。
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScN5ZQDrWcz1BTEWTN8giciclWx7YJYL29E8CB9JvI9e5pkoAf9XGzpeedPZGy8Ss9eB41lg46oah7NQ/0?wx_fmt=png)
+![](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScN5ZQDrWcz1BTEWTN8giciclWx7YJYL29E8CB9JvI9e5pkoAf9XGzpeedPZGy8Ss9eB41lg46oah7NQ/0?wx_fmt=png)
 
 - 并发标记（Concurrent Mark）：并发标记是遍历对象图做可达性分析的阶段。与G1、Shenandoah不同的是，ZGC的标记是在指针上而不是在对象上进行的，**标记阶段会更新染色指针中的Marked 0、Marked 1标志位**。
 
@@ -77,10 +77,6 @@ ZGC的运作过程大致可划分为以下四个大的阶段。**全部四个阶
 
 **ZGC几乎整个收集过程都全程可并发，短暂停顿也只与GC Roots大小相关而与堆内存大小无关，因而同样实现了任何堆上停顿都小于十毫秒的目标**。
 
-## ZGC什么时候进行垃圾回收
-
-
-
 ## ZGC的优缺点
 
 相比G1、Shenandoah等先进的垃圾收集器，ZGC在实现细节上做了一些不同的权衡选择，譬如G1需要通过写屏障来维护记忆集，才能处理跨代指针，得以实现Region的增量回收。记忆集要占用大量的内存空间，写屏障也对正常程序运行造成额外负担，这些都是权衡选择的代价。**ZGC就完全没有使用记忆集，它甚至连分代都没有，连像CMS中那样只记录新生代和老年代间引用的卡表也不需要，因而完全没有用到写屏障，所以给用户线程带来的运行负担也要小得多**。
@@ -93,5 +89,5 @@ ZGC的运作过程大致可划分为以下四个大的阶段。**全部四个阶
 
 如果本篇博客有任何错误和建议，欢迎给我留言指正。文章持续更新，可以关注公众号第一时间阅读。
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScPibyOvOuNiasKa7qicaZgo5DIcDAickDKoU6KZUmLyibpnRc6ibzTxT9WAnkfPhFcq6iamGRo2ITZlPPczA/0?wx_fmt=jpeg)
+![](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScPibyOvOuNiasKa7qicaZgo5DIcDAickDKoU6KZUmLyibpnRc6ibzTxT9WAnkfPhFcq6iamGRo2ITZlPPczA/0?wx_fmt=jpeg)
 

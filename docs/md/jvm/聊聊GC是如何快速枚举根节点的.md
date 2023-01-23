@@ -6,7 +6,7 @@ HotSpot使用的是可达性分析算法，该算法需要进行根节点枚举�
 
 大家可以思考下，如果你是JVM的开发者，你会怎么去做？
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScPeYWz4ibOQDZE50x2UUm1Eo9y8WFqqzuLdRrG51GDgbUsV2mHBcJfgj9EOdvjolX91sULQE0bZDEA/0?wx_fmt=jpeg)
+![](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScPeYWz4ibOQDZE50x2UUm1Eo9y8WFqqzuLdRrG51GDgbUsV2mHBcJfgj9EOdvjolX91sULQE0bZDEA/0?wx_fmt=jpeg)
 
 看完这一章节，你或许会跟我一样，感叹JVM开发者的智慧。
 
@@ -25,13 +25,13 @@ HotSpot使用的是可达性分析算法，该算法需要进行根节点枚举�
 - 所有被同步锁（synchronized关键字）持有的对象。
 - 反映Java虚拟机内部情况的JMXBean、JVMTI中注册的回调、本地代码缓存等。
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScPeYWz4ibOQDZE50x2UUm1EoAj17U0XZ6qiaPx4Zr8BCgGJ7homLJRgJF1LjTmMdiaBiatO9Te7ZWibzWg/0?wx_fmt=jpeg)
+![](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScPeYWz4ibOQDZE50x2UUm1EoAj17U0XZ6qiaPx4Zr8BCgGJ7homLJRgJF1LjTmMdiaBiatO9Te7ZWibzWg/0?wx_fmt=jpeg)
 
 ## 根节点枚举存在的问题
 
 迄今为止，所有收集器在根节点枚举这一步骤时都是必须暂停用户线程的，因此毫无疑问根节点枚举与之前提及的整理内存碎片一样会面临相似的“**Stop The World**”的困扰。根节点枚举必须在一个能保障一致性的快照中才得以进行——这里“一致性”的意思是整个枚举期间执行子系统看起来就像被冻结在某个时间点上。
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScPeYWz4ibOQDZE50x2UUm1EoNWsWt93IibJXEBmjI2ka55LWXmpggonMGcCiaptWMvucgy8uruAIqTKQ/0?wx_fmt=jpeg)
+![](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScPeYWz4ibOQDZE50x2UUm1EoNWsWt93IibJXEBmjI2ka55LWXmpggonMGcCiaptWMvucgy8uruAIqTKQ/0?wx_fmt=jpeg)
 
 **为什么要这么做？**
 
@@ -59,7 +59,7 @@ HotSpot使用的是可达性分析算法，该算法需要进行根节点枚举�
 
 但是还有一个问题是需要考虑的：**如何在垃圾收集发生时让所有线程都跑到最近的安全点，然后停顿下来。**
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScPeYWz4ibOQDZE50x2UUm1EoW5K6fcmf95qeIOVVwbT5Rr3t2kbaPWeMFBiaBpMbhdtygA5icnSoDhew/0?wx_fmt=jpeg)
+![](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScPeYWz4ibOQDZE50x2UUm1EoW5K6fcmf95qeIOVVwbT5Rr3t2kbaPWeMFBiaBpMbhdtygA5icnSoDhew/0?wx_fmt=jpeg)
 
 
 有两种方案可供选择：`抢先式中断（Preemptive Suspension）`和`主动式中断（Voluntary Suspension）`。
@@ -75,10 +75,10 @@ HotSpot使用的是可达性分析算法，该算法需要进行根节点枚举�
 
 **安全区域是指能够确保在某一段代码片段之中，引用关系不会发生变化，因此，在这个区域中任意地方开始垃圾收集都是安全的。我们也可以把安全区域看作被扩展拉伸了的安全点。**
 
-当用户线程执行到安全区域里面的代码时，首先会标识自己已经进入了安全区域，那样当这段时间里虚拟机要发起垃圾收集时就不必去管这些已声明自己在安全区域内的线程了。**当线程要离开安全区域时，它要检查虚拟机是否已经完成了根节点枚举（或者垃圾收集过程中其他需要暂停用户线程的阶段），如果完成了，那线程就当作没事发生过，继续执行；否则它就必须一直等待，直到收到可以离开安全区域的信号为止。
+当用户线程执行到安全区域里面的代码时，首先会标识自己已经进入了安全区域，那样当这段时间里虚拟机要发起垃圾收集时就不必去管这些已声明自己在安全区域内的线程了。**当线程要离开安全区域时，它要检查虚拟机是否已经完成了根节点枚举（或者垃圾收集过程中其他需要暂停用户线程的阶段），如果完成了，那线程就当作没事发生过，继续执行；否则它就必须一直等待，直到收到可以离开安全区域的信号为止**。
 
 ------
 
 如果本篇博客有任何错误和建议，欢迎给我留言指正。文章持续更新，可以关注公众号第一时间阅读。 
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScPibyOvOuNiasKa7qicaZgo5DIcDAickDKoU6KZUmLyibpnRc6ibzTxT9WAnkfPhFcq6iamGRo2ITZlPPczA/0?wx_fmt=jpeg)
+![](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScPibyOvOuNiasKa7qicaZgo5DIcDAickDKoU6KZUmLyibpnRc6ibzTxT9WAnkfPhFcq6iamGRo2ITZlPPczA/0?wx_fmt=jpeg)

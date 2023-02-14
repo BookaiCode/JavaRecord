@@ -36,7 +36,7 @@ public class ThreadLocalTest {
 
 执行结果如下
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScPIlWKwgbQ65sKiaib8iapt1NbRPMl0QtMDm5rRqSmwtQrX0h1blZNEYlcYUgVCQOf9AlM0e7huUopaQ/0?wx_fmt=png)
+![](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScPIlWKwgbQ65sKiaib8iapt1NbRPMl0QtMDm5rRqSmwtQrX0h1blZNEYlcYUgVCQOf9AlM0e7huUopaQ/0?wx_fmt=png)
 
 
 我们从 `Thread` 类讲起，在 `Thread` 类中有维护两个 `ThreadLocal.ThreadLocalMap` 对象，分别是：`threadLocals` 和`inheritableThreadLocals`。
@@ -58,9 +58,9 @@ ThreadLoalMap是ThreadLocal中的一个静态内部类，类似HashMap的数据�
 
 ThreadLoalMap中初始化了一个**大小16的Entry数组**，Entry对象用来保存每一个key-value键值对。key是ThreadLocal对象。
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScPIlWKwgbQ65sKiaib8iapt1Nb99SpunAyTqvlVVfb7UiaRgKrrfZ4ol66dwao1eAEHaQs5xqNVe7CyKg/0?wx_fmt=png)
+![](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScPIlWKwgbQ65sKiaib8iapt1Nb99SpunAyTqvlVVfb7UiaRgKrrfZ4ol66dwao1eAEHaQs5xqNVe7CyKg/0?wx_fmt=png)
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScPIlWKwgbQ65sKiaib8iapt1Nbicx9QuS9iadDf2MIWGWJoaJBQkhtOX92WBN4XclnOWTFgblibdYl07F7g/0?wx_fmt=png)
+![](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScPIlWKwgbQ65sKiaib8iapt1Nbicx9QuS9iadDf2MIWGWJoaJBQkhtOX92WBN4XclnOWTFgblibdYl07F7g/0?wx_fmt=png)
 
 Entry用来保存数据 ，而且还是继承的弱引用。在Entry内部使用ThreadLocal作为key，使用我们设置的value作为value。
 
@@ -70,11 +70,11 @@ Entry用来保存数据 ，而且还是继承的弱引用。在Entry内部使用
 
 当我们调用 ThreadLocal 的 `set()` 方法时实际是调用了当前线程的 ThreadLocalMap 的 set() 方法。ThreadLocal 的 set() 方法中，会进一步调用`Thread.currentThread()` 获得当前线程对象 ，然后获取到当前线程对象的ThreadLocal，判断是不是为空，为空就先调用`creadMap()`创建再`set(value)`创建 ThreadLocalMap 对象并添加变量。不为空就直接`set(value)` 。
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScPIlWKwgbQ65sKiaib8iapt1NbvgPzggrd3O6mYhN1XOPJ6ic2Gdyl8Cleec7iaG5owyWtmh7qPY8BZ1vA/0?wx_fmt=png)
+![](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScPIlWKwgbQ65sKiaib8iapt1NbvgPzggrd3O6mYhN1XOPJ6ic2Gdyl8Cleec7iaG5owyWtmh7qPY8BZ1vA/0?wx_fmt=png)
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScPIlWKwgbQ65sKiaib8iapt1NbpibZMdAMY6HWBJ7jQBAMEfDUHDiaDRruZKWqbXTicTicf6uUraG3rRbD8g/0?wx_fmt=png)
+![](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScPIlWKwgbQ65sKiaib8iapt1NbpibZMdAMY6HWBJ7jQBAMEfDUHDiaDRruZKWqbXTicTicf6uUraG3rRbD8g/0?wx_fmt=png)
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScPIlWKwgbQ65sKiaib8iapt1Nbia6lr2ic09icJoicDhgZ6uB6xyZZpmSgAYicm3ibHQWaI80HZ47vROSRl3Lg/0?wx_fmt=png)
+![](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScPIlWKwgbQ65sKiaib8iapt1Nbia6lr2ic09icJoicDhgZ6uB6xyZZpmSgAYicm3ibHQWaI80HZ47vROSRl3Lg/0?wx_fmt=png)
 
 这种保证线程安全的方式称为`线程封闭`。线程只能看到自己的ThreadLocal变量。线程之间是互相隔离的。
 
@@ -158,13 +158,13 @@ private void remove(ThreadLocal<?> key) {
 
 所以如果 ThreadLocal 没有被外部强引用的情况下，在垃圾回收的时候会被清理掉的，这样一来 ThreadLocalMap中使用这个 ThreadLocal 的 key 也会被清理掉。但是，value 是强引用，不会被清理，这样一来就会出现 key 为 null 的 value。出现内存泄漏的问题。
 
-在执行 ThreadLocal 的 set、remove、rehash 等方法时，它都会扫描 key 为 null 的 Entry，如果发现某个 Entry 的 key 为 null，则代表它所对应的 value 也没有作用了，所以它就会把对应的 value 置为 null，这样，value 对象就可以被正常回收了。但是假设 ThreadLocal 已经不被使用了，那么实际上 set、remove、rehash 方法也不会被调用，与此同时，如果这个线程又一直存活、不终止的话，那么刚才的那个调用链就一直存在，也就导致了 value 的内存泄漏。
+**在执行 ThreadLocal 的 set、remove、rehash 等方法时，它都会扫描 key 为 null 的 Entry，如果发现某个 Entry 的 key 为 null，则代表它所对应的 value 也没有作用了，所以它就会把对应的 value 置为 null，这样，value 对象就可以被正常回收了。但是假设 ThreadLocal 已经不被使用了，那么实际上 set、remove、rehash 方法也不会被调用，与此同时，如果这个线程又一直存活、不终止的话，那么刚才的那个调用链就一直存在，也就导致了 value 的内存泄漏**。
 
 ## ThreadLocal 的Hash算法
 
 `ThreadLocalMap`类似HashMap，它有自己的Hash算法。
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScPIlWKwgbQ65sKiaib8iapt1Nb7Xo4XTjrLTVagAvOak7y7LAy6IMiaSyLbesbq7iaU7DHIXhtUt9YDWTQ/0?wx_fmt=png)
+![](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScPIlWKwgbQ65sKiaib8iapt1Nb7Xo4XTjrLTVagAvOak7y7LAy6IMiaSyLbesbq7iaU7DHIXhtUt9YDWTQ/0?wx_fmt=png)
 
 ```java
 private final int threadLocalHashCode = nextHashCode();
@@ -231,9 +231,9 @@ static class Entry extends WeakReference<ThreadLocal<?>> {
 
 为什么采用了弱引用的实现而不是强引用呢？
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScPIlWKwgbQ65sKiaib8iapt1NbkRof7HnHK3alZP02QCxiaxyAulEHzNb5Ndoc4hVSxKq3MPZNr8miaULg/0?wx_fmt=png)
+![](https://mmbiz.qpic.cn/mmbiz_png/jC8rtGdWScPIlWKwgbQ65sKiaib8iapt1NbkRof7HnHK3alZP02QCxiaxyAulEHzNb5Ndoc4hVSxKq3MPZNr8miaULg/0?wx_fmt=png)
 
-注释上有这么一段话：为了协助处理数据比较大并且生命周期比较长的场景，hash table的条目使用了WeakReference作为key。
+注释上有这么一段话：**为了协助处理数据比较大并且生命周期比较长的场景，hash table的条目使用了WeakReference作为key**。
 
 **所以，弱引用反而是为了解决内存存储问题而专门使用的。**
 
@@ -275,4 +275,4 @@ https://github.com/alibaba/transmittable-thread-local
 ------
 如果本篇博客有任何错误和建议，欢迎给我留言指正。文章持续更新，可以关注公众号第一时间阅读。
 
-![img](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScMuzzTENRgicfnr91C5Bg9QNgMZrxFGlGXnTlXIGAKfKAibKRGJ2QrWoVBXhxpibTQxptf8MsPTyHvSg/0?wx_fmt=jpeg)
+![](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScMuzzTENRgicfnr91C5Bg9QNgMZrxFGlGXnTlXIGAKfKAibKRGJ2QrWoVBXhxpibTQxptf8MsPTyHvSg/0?wx_fmt=jpeg)

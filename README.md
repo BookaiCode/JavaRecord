@@ -12,6 +12,10 @@
 
 :pencil2:  [写作自述](/docs/md/写作自述.md)
 
+###  :star: Java  ###
+
+- [线程私有变量ThreadLocal详解](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484144&idx=1&sn=11723df64dfa87fc99dedf86e205e7b9&chksm=cf847135f8f3f8231a2d3502542a9d38b8140a9a4eb4ede9101a26ced5fc917e94838825d713#rd)
+
 ###  :page_facing_up: JVM  ###
 
 - [面试官：JVM是如何判定对象已死的？](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484050&idx=1&sn=c602bc071890ad70f56acc74618f42a6&chksm=cf847157f8f3f8410131e3d3f4586a115fec46cbd5a9419aa81efd76b1fb72c57d1d3557e808#rd)

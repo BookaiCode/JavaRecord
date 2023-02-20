@@ -30,7 +30,11 @@
 
 ###  :envelope: Redis  ###
 
-###  :date: KafKa  ###
+###  :date:框架  ###
+
+###  :fire:架构设计  ###
+
+- [高并发系统设计之负载均衡](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484174&idx=1&sn=27957eaa843975f5cc8aaebccda7594f&chksm=cf8470cbf8f3f9dd6153677623ebb8bf975753352a8633113b3b482c87d52b5ac9e0ccbabaf6#rd)
 
 ###  :bulb: 资源  ###
 

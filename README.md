@@ -35,6 +35,7 @@
 ###  :fire:架构设计  ###
 
 - [高并发系统设计之负载均衡](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484174&idx=1&sn=27957eaa843975f5cc8aaebccda7594f&chksm=cf8470cbf8f3f9dd6153677623ebb8bf975753352a8633113b3b482c87d52b5ac9e0ccbabaf6#rd)
+- [高并发系统设计之限流](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484266&idx=1&sn=1c86eb7d383afc69a396122befd775c3&chksm=cf8470aff8f3f9b90389d9d360e8c23b4c0ed97b457657e6a3152aa5ac4a2c72c74815b8a56f#rd)
 
 ###  :bulb: 资源  ###
 

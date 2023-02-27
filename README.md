@@ -32,10 +32,14 @@
 
 ###  :date:框架  ###
 
+- [本地缓存无冕之王Caffeine Cache](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484286&idx=1&sn=db26e0fd1cf747e9d79e9a6fc0259bde&chksm=cf8470bbf8f3f9ad7fcf3298c563fc46df91c39f03d2a7ac7547d6d391d6e615d57bf88e97b8#rd)
+
 ###  :fire:架构设计  ###
 
 - [高并发系统设计之负载均衡](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484174&idx=1&sn=27957eaa843975f5cc8aaebccda7594f&chksm=cf8470cbf8f3f9dd6153677623ebb8bf975753352a8633113b3b482c87d52b5ac9e0ccbabaf6#rd)
 - [高并发系统设计之限流](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484266&idx=1&sn=1c86eb7d383afc69a396122befd775c3&chksm=cf8470aff8f3f9b90389d9d360e8c23b4c0ed97b457657e6a3152aa5ac4a2c72c74815b8a56f#rd)
+- [高并发系统设计之缓存](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484319&idx=1&sn=c43b365f94a2ee243990d13cb1805bdd&chksm=cf84705af8f3f94c0b78e90667918fd88744b03d993615f22a90610463f67c8692ecf34971ba#rd)
+
 
 ###  :bulb: 资源  ###
 

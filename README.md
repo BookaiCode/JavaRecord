@@ -16,6 +16,9 @@
 
 - [线程私有变量ThreadLocal详解](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484144&idx=1&sn=11723df64dfa87fc99dedf86e205e7b9&chksm=cf847135f8f3f8231a2d3502542a9d38b8140a9a4eb4ede9101a26ced5fc917e94838825d713#rd)
 
+- [使用Optional优雅避免空指针异常](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484348&idx=1&sn=55194e8ef568b4bbe5371db0f87535cb&chksm=cf847079f8f3f96f01617968d59616b87dfc945c1cdf0892b242c036a0949814ae7607c508e5#rd)
+
+
 ###  :page_facing_up: JVM  ###
 
 - [面试官：JVM是如何判定对象已死的？](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484050&idx=1&sn=c602bc071890ad70f56acc74618f42a6&chksm=cf847157f8f3f8410131e3d3f4586a115fec46cbd5a9419aa81efd76b1fb72c57d1d3557e808#rd)
@@ -29,6 +32,8 @@
 ###  :hammer: MySQL  ###
 
 ###  :envelope: Redis  ###
+
+- [Redis类型(type)与编码(encoding)](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484356&idx=1&sn=7066a0a40d7735815ed4feea278cab9d&chksm=cf847001f8f3f917960885f5f51d73a5bf576a80bd992077e94b2985dd0216165b99406b2a4a#rd)
 
 ###  :date:框架  ###
 

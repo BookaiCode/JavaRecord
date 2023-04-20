@@ -11,8 +11,8 @@
 
 #### 亿级流量网站架构核心技术
 
-链接：https://pan.baidu.com/s/1wl4av6ZLrouKI6jcA6K3wA 
-提取码：y36a
+链接：https://pan.baidu.com/s/1mrjAMEm9ew5CNnvEqtntYA 
+提取码：hfym
 
 #### 深入理解Kafka：核心设计与实践原理
 
@@ -108,3 +108,8 @@
 
 链接：https://pan.baidu.com/s/1B1ljkfoAEvNKCwcaxeo80A 
 提取码：6j3n
+
+#### Redis设计与实现
+
+链接：https://pan.baidu.com/s/1YzkEEiceIJrDrhLTLYozSA 
+提取码：bj2f

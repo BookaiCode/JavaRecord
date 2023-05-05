@@ -70,3 +70,7 @@ mysql> show global status like '%dblwr%';
 
 InnoDB Doublewrite Buffer是InnoDB的一个重要特性，用于保证MySQL数据的可靠性和一致性。它的实现原理是通过将要写入磁盘的数据先写入到Doublewrite Buffer中的内存缓存区域，然后再写入到磁盘的两个不同位置，来避免由于磁盘损坏等因素导致数据丢失或不一致的问题。Doublewrite Buffer对于保证MySQL数据的安全性和一致性具有重要意义。
 
+------
+
+本篇文章就到这里，感谢阅读，如果本篇博客有任何错误和建议，欢迎给我留言指正。文章持续更新，可以关注公众号第一时间阅读。 
+![](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScMuzzTENRgicfnr91C5Bg9QNgMZrxFGlGXnTlXIGAKfKAibKRGJ2QrWoVBXhxpibTQxptf8MsPTyHvSg/0?wx_fmt=jpeg)

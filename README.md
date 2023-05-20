@@ -55,6 +55,9 @@
 - [高并发系统设计之限流](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484266&idx=1&sn=1c86eb7d383afc69a396122befd775c3&chksm=cf8470aff8f3f9b90389d9d360e8c23b4c0ed97b457657e6a3152aa5ac4a2c72c74815b8a56f#rd)
 - [高并发系统设计之缓存](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484319&idx=1&sn=c43b365f94a2ee243990d13cb1805bdd&chksm=cf84705af8f3f94c0b78e90667918fd88744b03d993615f22a90610463f67c8692ecf34971ba#rd)
 
+### :dash:编程语言  ###
+
+- [Scala初学者指南](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484574&idx=1&sn=85ac7b748ec8f22e3e8f8f42efca02d1&chksm=cf84775bf8f3fe4d2779871e106e1946293bb57d6f85ad44aa1f20fe467e9402a26807a532b4#rd)
 
 ###  :bulb: 资源  ###
 

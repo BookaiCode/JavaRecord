@@ -59,6 +59,8 @@
 
 - [Scala初学者指南](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484574&idx=1&sn=85ac7b748ec8f22e3e8f8f42efca02d1&chksm=cf84775bf8f3fe4d2779871e106e1946293bb57d6f85ad44aa1f20fe467e9402a26807a532b4#rd)
 
+- [Groovy初学者指南](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484641&idx=1&sn=7243e662d2b0a811f1be745777c30420&chksm=cf847724f8f3fe329f4414fb3fa9c262e0d2985f6996b64b519b79b1c6ae3f65fb894d27bb76#rd)
+
 ###  :bulb: 资源  ###
 
 - [精品电子书（持续更新）](/docs/md/PDF.md)

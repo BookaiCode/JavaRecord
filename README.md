@@ -61,6 +61,10 @@
 
 - [Groovy初学者指南](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484641&idx=1&sn=7243e662d2b0a811f1be745777c30420&chksm=cf847724f8f3fe329f4414fb3fa9c262e0d2985f6996b64b519b79b1c6ae3f65fb894d27bb76#rd)
 
+### :eyes:大数据  ###
+
+- [Spark入门这篇就够了（万字长文）](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484731&idx=1&sn=033b31376869f2046219dfe28707e43d&chksm=cf8476fef8f3ffe86a1910e5948afddba464e6cc186adb3ecb8ca62f612a4110b71ada2370cc#rd)
+
 ###  :bulb: 资源  ###
 
 - [精品电子书（持续更新）](/docs/md/PDF.md)

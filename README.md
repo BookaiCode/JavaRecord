@@ -58,13 +58,11 @@
 ### :dash:编程语言  ###
 
 - [Scala初学者指南](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484574&idx=1&sn=85ac7b748ec8f22e3e8f8f42efca02d1&chksm=cf84775bf8f3fe4d2779871e106e1946293bb57d6f85ad44aa1f20fe467e9402a26807a532b4#rd)
-
 - [Groovy初学者指南](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484641&idx=1&sn=7243e662d2b0a811f1be745777c30420&chksm=cf847724f8f3fe329f4414fb3fa9c262e0d2985f6996b64b519b79b1c6ae3f65fb894d27bb76#rd)
 
 ### :eyes:大数据  ###
 
 - [Spark入门这篇就够了（万字长文）](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484731&idx=1&sn=033b31376869f2046219dfe28707e43d&chksm=cf8476fef8f3ffe86a1910e5948afddba464e6cc186adb3ecb8ca62f612a4110b71ada2370cc#rd)
-
 - [一篇文章带你入门HBase）](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484823&idx=1&sn=4f8204e007c2201962cd707fc5668242&chksm=cf847652f8f3ff443ef516bf490656b21891eee42382970435a25451948daf89c2d72cfad96f#rd)
 
 ###  :bulb: 资源  ###

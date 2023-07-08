@@ -34,6 +34,7 @@
 - [MySQL双写缓冲区(Doublewrite Buffer)](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484456&idx=1&sn=b5154c5eb26b969655c1b430792e0cb6&chksm=cf8477edf8f3fefbe0c95c2074a461ab12c01926654d995ad7844cba332fda7744da6b47ddc5#rd)
 - [MMR(Multi-Range Read Optimization)](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484466&idx=1&sn=29b6a9adfa2fee52e6391509d1b8c73f&chksm=cf8477f7f8f3fee1ea1793924cf8475f7581a2770f8804a54a60c61f57aac4ce64dff723c308#rd)
 - [MySQL中的Join 的算法（NLJ、BNL、BKA）](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484480&idx=1&sn=e75482a0fd8a866d9a9565aa9e659009&chksm=cf847785f8f3fe93195de380f7cff3efc8950a2cb49127a669f6b14a30e2fa5c13285e905f6b#rd)
+- [MySQL分区表详解](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484856&idx=1&sn=ffb350c8b1e74667fe15a5e808faec57&chksm=cf84767df8f3ff6b30ff91dd14a6f802eaac01076dcc8b988a18f1a529f21a6266d34e34c4d7#rd)
 
 ###  :envelope: Redis  ###
 

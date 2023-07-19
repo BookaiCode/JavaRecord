@@ -68,6 +68,10 @@
 - [全网最详细4W字Flink入门笔记（上）](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247485174&idx=1&sn=4cbd4ce941458fa576febb5021d1942f&chksm=cf847533f8f3fc25fa6e9c0c6de69b68b3f424aad52e6846dca8641d11a8be7ea8614682ad64#rd)
 - [全网最详细4W字Flink入门笔记（下）](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247485365&idx=1&sn=c99d1e392440cad85342fdc950afc7f9&chksm=cf847470f8f3fd6632b34a42d8008f94430902630e4f5c8fb6ead1475facdc6e4ab39a5f828b#rd)
 
+### :grey_question:随写  ###
+
+- [Python爬虫超详细讲解（零基础入门，老年人都看的懂）]()
+
 ###  :bulb: 资源  ###
 
 - [精品电子书（持续更新）](/docs/md/PDF.md)

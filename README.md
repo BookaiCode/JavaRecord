@@ -70,7 +70,7 @@
 
 ### :grey_question:随写  ###
 
-- [Python爬虫超详细讲解（零基础入门，老年人都看的懂）]()
+- [Python爬虫超详细讲解（零基础入门，老年人都看的懂）](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247485434&idx=1&sn=8b399a4764bf0b2f438f5150b7f17439&chksm=cf84743ff8f3fd29dbb1bc3cc58fa5f0d0a6d5cd3d613d9bb96d89f4935fb00cb3fa7fd0c633#rd)
 
 ###  :bulb: 资源  ###
 

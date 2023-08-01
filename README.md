@@ -44,7 +44,12 @@
 - [Redis内存碎片和Pipeline管道](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484383&idx=1&sn=a6b26a57d3d02d28e5a716b978f67494&chksm=cf84701af8f3f90c0e9da088ece41e31dd5d095228e6c8e46535cb3bd0874e27a264994b64d2#rd)
 - [Redis中的BigKey问题：排查与解决思路](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484415&idx=1&sn=39cb685de9880bbe8fb108518cd5d54d&chksm=cf84703af8f3f92ca802e8e567a1f9bcdd038574113fe7aa68091db9f32cd86f6957862ee83a#rd)
 - [非看不可的Redis持久化](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484435&idx=1&sn=e02f552e3d943787fdd5442ab49eb95a&chksm=cf8477d6f8f3fec05b7b8441cc19898bf9a4c4e9ffaa72827eba2e20735a0f37f840c4e2e495#rd)
-
+- 
+###  :lock:Elasticsearch  ###
+- [学好Elasticsearch系列-核心概念](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247485450&idx=1&sn=b23b362f8baac883e6a64b0cb05b184d&chksm=cf847bcff8f3f2d98ef829ff3f7c8cee59600b6b2c683564e2ab6af2c0547fc67b8ccbc837e9#rd)
+- [学好Elasticsearch系列-索引的CRUD](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247485479&idx=1&sn=eb2b57e78d1f08c398558b2f23063df0&chksm=cf847be2f8f3f2f4567bd65048aba533355c70733bef9a14580ffcfadd01678acf01d62a92f4#rd)
+- [学好Elasticsearch系列-Mapping](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247485492&idx=1&sn=e33d0689502b043723b0c2e4f0660a1d&chksm=cf847bf1f8f3f2e75fc2a8dd4542572f2dc7e4706f4817d2f9cd2ae18d3f28a1455da7873207#rd)
+- [学好Elasticsearch系列-Query DSL](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247485520&idx=1&sn=97803ad983c80a90158b5b9efabcc8b7&chksm=cf847b95f8f3f2839fec2550df3dccb55e91b5cadcfc11ea2e9e25b27a882aceb5dca5fe2b96#rd)
 
 ###  :date:框架  ###
 

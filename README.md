@@ -50,6 +50,10 @@
 - [学好Elasticsearch系列-索引的CRUD](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247485479&idx=1&sn=eb2b57e78d1f08c398558b2f23063df0&chksm=cf847be2f8f3f2f4567bd65048aba533355c70733bef9a14580ffcfadd01678acf01d62a92f4#rd)
 - [学好Elasticsearch系列-Mapping](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247485492&idx=1&sn=e33d0689502b043723b0c2e4f0660a1d&chksm=cf847bf1f8f3f2e75fc2a8dd4542572f2dc7e4706f4817d2f9cd2ae18d3f28a1455da7873207#rd)
 - [学好Elasticsearch系列-Query DSL](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247485520&idx=1&sn=97803ad983c80a90158b5b9efabcc8b7&chksm=cf847b95f8f3f2839fec2550df3dccb55e91b5cadcfc11ea2e9e25b27a882aceb5dca5fe2b96#rd)
+- [学好Elasticsearch系列-分词器](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247485544&idx=1&sn=cfa20adbb5c7328ea0cab85966d95c02&chksm=cf847badf8f3f2bbefd1b9e893cccf10a24c2a83f8052b613c62c999566e4c8616fded236552#rd)
+- [学好Elasticsearch系列-聚合查询](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247485562&idx=1&sn=dd965afcd5697a152dae32d46e3996cd&chksm=cf847bbff8f3f2a91c7c75af03809359f7c9963c32e1da19b79939ccc283c46b3cf8038bd917#rd)
+- [学好Elasticsearch系列-索引的批量操作](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247485594&idx=1&sn=71da9fcc473e3891b19c37af782ae7cb&chksm=cf847b5ff8f3f249e7f42ccac125982aa3abd8617bb5cc5466b2c5d381dae51f4d76b9f11d3c#rd)
+- [学好Elasticsearch系列-脚本查询](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247485648&idx=1&sn=a0b075e6c2bad836a4c4eb6cacbaff5a&chksm=cf847b15f8f3f2033b5e18b8376b14205902898fb14c40a955a10619a74b1d35552a046dd7d1#rd)
 
 ###  :date:框架  ###
 

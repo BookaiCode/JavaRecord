@@ -88,5 +88,4 @@
 # 关注我，我们一起交流技术
 
   <a name="微信"></a>  <a name="公众号"></a>
-![公众号.jpg]
-(https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScMuzzTENRgicfnr91C5Bg9QNgMZrxFGlGXnTlXIGAKfKAibKRGJ2QrWoVBXhxpibTQxptf8MsPTyHvSg/640?wx_fmt=jpeg)
+![公众号.jpg](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScMuzzTENRgicfnr91C5Bg9QNgMZrxFGlGXnTlXIGAKfKAibKRGJ2QrWoVBXhxpibTQxptf8MsPTyHvSg/640?wx_fmt=jpeg)

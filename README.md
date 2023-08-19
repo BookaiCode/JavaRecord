@@ -10,7 +10,7 @@
 
 每周至少一篇的更新频率，没链接的是之后打算写的。
 
-:pencil2:  [写作自述](/docs/md/写作自述.md)
+:pencil2:  [写作自述](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486050&idx=1&sn=1105d28b8d3553715f425419ec9d8d18&chksm=cf8479a7f8f3f0b19425e08a00332bbce4e5333843cfd6dd6f35e892139810d86b778cd57d55#rd)
 
 ###  :star: Java  ###
 

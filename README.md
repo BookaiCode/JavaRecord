@@ -21,7 +21,7 @@
 
 ###  :page_facing_up: JVM  ###
 
-- [面试官：JVM是如何判定对象已死的？](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484050&idx=1&sn=c602bc071890ad70f56acc74618f42a6&chksm=cf847157f8f3f8410131e3d3f4586a115fec46cbd5a9419aa81efd76b1fb72c57d1d3557e808#rd)
+- [[面试官：JVM是如何判定对象已死的？学JVM必会的知识！](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486087&idx=1&sn=c6f1a9932961095ffdf2aef8a789e115&chksm=cf847942f8f3f0549c798671fe804c93378586b4fc547cce14db2359852ff0723a3aab64a187&token=23091038&lang=zh_CN#rd)](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486087&idx=1&sn=c6f1a9932961095ffdf2aef8a789e115&chksm=cf847942f8f3f0549c798671fe804c93378586b4fc547cce14db2359852ff0723a3aab64a187#rd)
 - [聊聊GC是如何快速枚举根节点的](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484059&idx=1&sn=b0f615445c6549d08030baf87cbccf96&chksm=cf84715ef8f3f848a958f83c32900fae374f296699299395d01ce3519fd7430ea45ecec2c476#rd)
 - [JVM是如何解决跨代引用问题的？](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484071&idx=1&sn=ab54a47fc650bc3bfff420d1b8b086db&chksm=cf847162f8f3f874a85f617e0c23b7b077659286a14345d5aa4b09c5e50b3c5f545eba9029e1#rd)
 - [一文弄懂三色标记算法](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484079&idx=1&sn=7f584b390a565b1a3b0e4b72913c76ce&chksm=cf84716af8f3f87cd85a90cc722943a04acfca0f176611514125b41a7961f1ad202982aba636#rd)

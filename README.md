@@ -22,37 +22,58 @@
 ###  :page_facing_up: JVM  ###
 
 - [面试官：JVM是如何判定对象已死的？学JVM必会的知识！](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486087&idx=1&sn=c6f1a9932961095ffdf2aef8a789e115&chksm=cf847942f8f3f0549c798671fe804c93378586b4fc547cce14db2359852ff0723a3aab64a187#rd)
+  
 - [GC的前置工作，聊聊GC是如何快速枚举根节点的](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486168&idx=1&sn=9eef35ec701b5c2f8097641b7e69ae71&chksm=cf84791df8f3f00b1e85039f31b17e00bf9cb624bbee638efeca110e51df6c6b6ba6363705ee#rd)
+  
 - [JVM是如何解决跨代引用问题的？](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484071&idx=1&sn=ab54a47fc650bc3bfff420d1b8b086db&chksm=cf847162f8f3f874a85f617e0c23b7b077659286a14345d5aa4b09c5e50b3c5f545eba9029e1#rd)
+  
 - [一文弄懂三色标记算法](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484079&idx=1&sn=7f584b390a565b1a3b0e4b72913c76ce&chksm=cf84716af8f3f87cd85a90cc722943a04acfca0f176611514125b41a7961f1ad202982aba636#rd)
+  
 - [垃圾收集器必问系列—CMS](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484088&idx=1&sn=ea20a3a9c2870dade04177c8ea074f44&chksm=cf84717df8f3f86bd1a0842db66f1f013394be77c3e31db9eb070cec9c8a36f462bd378e3ed3#rd)
+  
 - [垃圾收集器必问系列—G1](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484096&idx=1&sn=12c314b3f9433c4f7f15c17ee0e14df7&chksm=cf847105f8f3f813bc957e3f85d6e4a8bf157060d095e1a4fc20e98c20a96bb2ac73ca039482#rd)
+  
 - [垃圾收集器必问系列—ZGC](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484106&idx=1&sn=a31c010f0cf001d0091d684b78d909f0&chksm=cf84710ff8f3f8192b038a5099c6b3ce0de1822f1d0881ff20b0d38d9e7578a3ffcccf5970e1#rd)
 
 ###  :hammer: MySQL  ###
 
 - [MySQL双写缓冲区(Doublewrite Buffer)](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484456&idx=1&sn=b5154c5eb26b969655c1b430792e0cb6&chksm=cf8477edf8f3fefbe0c95c2074a461ab12c01926654d995ad7844cba332fda7744da6b47ddc5#rd)
+  
 - [MMR(Multi-Range Read Optimization)](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484466&idx=1&sn=29b6a9adfa2fee52e6391509d1b8c73f&chksm=cf8477f7f8f3fee1ea1793924cf8475f7581a2770f8804a54a60c61f57aac4ce64dff723c308#rd)
+  
 - [MySQL中的Join 的算法（NLJ、BNL、BKA）](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484480&idx=1&sn=e75482a0fd8a866d9a9565aa9e659009&chksm=cf847785f8f3fe93195de380f7cff3efc8950a2cb49127a669f6b14a30e2fa5c13285e905f6b#rd)
+  
 - [MySQL分区表详解](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484856&idx=1&sn=ffb350c8b1e74667fe15a5e808faec57&chksm=cf84767df8f3ff6b30ff91dd14a6f802eaac01076dcc8b988a18f1a529f21a6266d34e34c4d7#rd)
 
 ###  :envelope: Redis  ###
 
 - [Redis类型(type)与编码(encoding)](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484356&idx=1&sn=7066a0a40d7735815ed4feea278cab9d&chksm=cf847001f8f3f917960885f5f51d73a5bf576a80bd992077e94b2985dd0216165b99406b2a4a#rd)
+  
 - [布隆过滤器](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484400&idx=1&sn=8d480b6b87ee2330e1e5f181fbf5f71a&chksm=cf847035f8f3f923699cd0b3c9137aa6bd596abd0242abe73abeee3179392794538e87e2dc42#rd)
+  
 - [Redis跟MySQL的双写问题](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484390&idx=1&sn=de37dc02c20f3b471404c507c3741550&chksm=cf847023f8f3f935233feb3c575c7798e41d695347f11f502a75f25ba02b479ad152572c666e#rd)
+  
 - [Redis内存碎片和Pipeline管道](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484383&idx=1&sn=a6b26a57d3d02d28e5a716b978f67494&chksm=cf84701af8f3f90c0e9da088ece41e31dd5d095228e6c8e46535cb3bd0874e27a264994b64d2#rd)
+  
 - [Redis中的BigKey问题：排查与解决思路](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484415&idx=1&sn=39cb685de9880bbe8fb108518cd5d54d&chksm=cf84703af8f3f92ca802e8e567a1f9bcdd038574113fe7aa68091db9f32cd86f6957862ee83a#rd)
+  
 - [非看不可的Redis持久化](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484435&idx=1&sn=e02f552e3d943787fdd5442ab49eb95a&chksm=cf8477d6f8f3fec05b7b8441cc19898bf9a4c4e9ffaa72827eba2e20735a0f37f840c4e2e495#rd)
-- 
+
 ###  :lock:Elasticsearch  ###
 - [学好Elasticsearch系列-核心概念](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247485450&idx=1&sn=b23b362f8baac883e6a64b0cb05b184d&chksm=cf847bcff8f3f2d98ef829ff3f7c8cee59600b6b2c683564e2ab6af2c0547fc67b8ccbc837e9#rd)
+  
 - [学好Elasticsearch系列-索引的CRUD](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247485479&idx=1&sn=eb2b57e78d1f08c398558b2f23063df0&chksm=cf847be2f8f3f2f4567bd65048aba533355c70733bef9a14580ffcfadd01678acf01d62a92f4#rd)
+  
 - [学好Elasticsearch系列-Mapping](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247485492&idx=1&sn=e33d0689502b043723b0c2e4f0660a1d&chksm=cf847bf1f8f3f2e75fc2a8dd4542572f2dc7e4706f4817d2f9cd2ae18d3f28a1455da7873207#rd)
+  
 - [学好Elasticsearch系列-Query DSL](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247485520&idx=1&sn=97803ad983c80a90158b5b9efabcc8b7&chksm=cf847b95f8f3f2839fec2550df3dccb55e91b5cadcfc11ea2e9e25b27a882aceb5dca5fe2b96#rd)
+  
 - [学好Elasticsearch系列-分词器](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247485544&idx=1&sn=cfa20adbb5c7328ea0cab85966d95c02&chksm=cf847badf8f3f2bbefd1b9e893cccf10a24c2a83f8052b613c62c999566e4c8616fded236552#rd)
+  
 - [学好Elasticsearch系列-聚合查询](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247485562&idx=1&sn=dd965afcd5697a152dae32d46e3996cd&chksm=cf847bbff8f3f2a91c7c75af03809359f7c9963c32e1da19b79939ccc283c46b3cf8038bd917#rd)
+  
 - [学好Elasticsearch系列-索引的批量操作](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247485594&idx=1&sn=71da9fcc473e3891b19c37af782ae7cb&chksm=cf847b5ff8f3f249e7f42ccac125982aa3abd8617bb5cc5466b2c5d381dae51f4d76b9f11d3c#rd)
+  
 - [学好Elasticsearch系列-脚本查询](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247485648&idx=1&sn=a0b075e6c2bad836a4c4eb6cacbaff5a&chksm=cf847b15f8f3f2033b5e18b8376b14205902898fb14c40a955a10619a74b1d35552a046dd7d1#rd)
 
 ###  :date:框架  ###
@@ -62,19 +83,25 @@
 ###  :fire:架构设计  ###
 
 - [高并发系统设计之负载均衡](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484174&idx=1&sn=27957eaa843975f5cc8aaebccda7594f&chksm=cf8470cbf8f3f9dd6153677623ebb8bf975753352a8633113b3b482c87d52b5ac9e0ccbabaf6#rd)
+  
 - [高并发系统设计之限流](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484266&idx=1&sn=1c86eb7d383afc69a396122befd775c3&chksm=cf8470aff8f3f9b90389d9d360e8c23b4c0ed97b457657e6a3152aa5ac4a2c72c74815b8a56f#rd)
+  
 - [高并发系统设计之缓存](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484319&idx=1&sn=c43b365f94a2ee243990d13cb1805bdd&chksm=cf84705af8f3f94c0b78e90667918fd88744b03d993615f22a90610463f67c8692ecf34971ba#rd)
 
 ### :dash:编程语言  ###
 
 - [Scala初学者指南](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484574&idx=1&sn=85ac7b748ec8f22e3e8f8f42efca02d1&chksm=cf84775bf8f3fe4d2779871e106e1946293bb57d6f85ad44aa1f20fe467e9402a26807a532b4#rd)
+  
 - [Groovy初学者指南](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484641&idx=1&sn=7243e662d2b0a811f1be745777c30420&chksm=cf847724f8f3fe329f4414fb3fa9c262e0d2985f6996b64b519b79b1c6ae3f65fb894d27bb76#rd)
 
 ### :eyes:大数据  ###
 
 - [Spark入门这篇就够了（万字长文）](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484731&idx=1&sn=033b31376869f2046219dfe28707e43d&chksm=cf8476fef8f3ffe86a1910e5948afddba464e6cc186adb3ecb8ca62f612a4110b71ada2370cc#rd)
+  
 - [一篇文章带你入门HBase](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484823&idx=1&sn=4f8204e007c2201962cd707fc5668242&chksm=cf847652f8f3ff443ef516bf490656b21891eee42382970435a25451948daf89c2d72cfad96f#rd)
+  
 - [全网最详细4W字Flink入门笔记（上）](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247485174&idx=1&sn=4cbd4ce941458fa576febb5021d1942f&chksm=cf847533f8f3fc25fa6e9c0c6de69b68b3f424aad52e6846dca8641d11a8be7ea8614682ad64#rd)
+  
 - [全网最详细4W字Flink入门笔记（下）](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247485365&idx=1&sn=c99d1e392440cad85342fdc950afc7f9&chksm=cf847470f8f3fd6632b34a42d8008f94430902630e4f5c8fb6ead1475facdc6e4ab39a5f828b#rd)
 
 ### :grey_question:随写  ###
@@ -87,5 +114,5 @@
 
 # 关注我，我们一起交流技术
 
-  <a name="微信"></a>  <a name="公众号"></a>
+<a name="微信"></a>  <a name="公众号"></a>
 ![公众号.jpg](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScMuzzTENRgicfnr91C5Bg9QNgMZrxFGlGXnTlXIGAKfKAibKRGJ2QrWoVBXhxpibTQxptf8MsPTyHvSg/640?wx_fmt=jpeg)

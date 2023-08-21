@@ -18,6 +18,14 @@
 
 - [使用Optional优雅避免空指针异常](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484348&idx=1&sn=55194e8ef568b4bbe5371db0f87535cb&chksm=cf847079f8f3f96f01617968d59616b87dfc945c1cdf0892b242c036a0949814ae7607c508e5#rd)
 
+- [我画了35张图就是为了让你深入 AQS](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486172&idx=1&sn=b39cccd87dcd21176597dce0b15f7232&chksm=cf847919f8f3f00f86219d44cd95badee969d754aec89e644992437f2e8e0f7ad784695b4d90#rd)
+
+- [一个 static 还能难得住我？](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486175&idx=1&sn=041c85c052c11d2d15243994bc46d90a&chksm=cf84791af8f3f00c90a18b29d1fa47c9bcd713651514fc5ce4a9f82d656fe637bb21d45c42be#rd)
+
+- [原来这才是动态代理！！！](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486178&idx=1&sn=9610c1a0fa1df4c69558408ab2a3fcae&chksm=cf847927f8f3f0315b0c86f9b577926820c3d264d605149f850b597fcd17fafe432d82aaffcf#rd)
+
+- [synchronized 的超多干货！](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486181&idx=1&sn=4cb9340ba2f19ccb19ccec0c54d61b86&chksm=cf847920f8f3f036cd752455290a97f6584f8a4ce9662d1102515dd5ed967c94e14cec7a767d#rd)
+
 
 ###  :page_facing_up: JVM  ###
 
@@ -38,8 +46,16 @@
 ###  :hammer: MySQL  ###
 
 - [MySQL双写缓冲区(Doublewrite Buffer)](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484456&idx=1&sn=b5154c5eb26b969655c1b430792e0cb6&chksm=cf8477edf8f3fefbe0c95c2074a461ab12c01926654d995ad7844cba332fda7744da6b47ddc5#rd)
+
+- [再深入一点|binlog和relay-log到底长啥样？](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486183&idx=1&sn=adc83df6c78e53ed1aefec7edc40ed63&chksm=cf847922f8f3f034beb08fc0a6fa2df8acb64902adff6927b71b5582e54444baa5c7265f7db8#rd)
+
+- [男人要慢，SQL要快：记一次慢SQL优化](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486186&idx=1&sn=7fcbb344830a7a86156d058ddad7fe81&chksm=cf84792ff8f3f039ed3fba7d8aff698f82d15a804e82893c94340bf2e28dba787d5445b44eb1#rd)
+
+- [听说你对explain 很懂？](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486188&idx=1&sn=4ebf475e7287e4b9cc0e37fdff0c18af&chksm=cf847929f8f3f03fba7173a17f8a04a677db9af91355cba552f5156b7fc9424ccf0fd87f8488#rd)
   
 - [MMR(Multi-Range Read Optimization)](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484466&idx=1&sn=29b6a9adfa2fee52e6391509d1b8c73f&chksm=cf8477f7f8f3fee1ea1793924cf8475f7581a2770f8804a54a60c61f57aac4ce64dff723c308#rd)
+
+- [拿捏！隔离级别、幻读、Gap Lock、Next-Key Lock](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486190&idx=1&sn=c274fbc3daed3d1ac3a1ce5bd0009b68&chksm=cf84792bf8f3f03d07e2855570164cbfc0f0a7fbb0bba1fd50c8b7b2155c555c4438b625f395#rd)
   
 - [MySQL中的Join 的算法（NLJ、BNL、BKA）](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484480&idx=1&sn=e75482a0fd8a866d9a9565aa9e659009&chksm=cf847785f8f3fe93195de380f7cff3efc8950a2cb49127a669f6b14a30e2fa5c13285e905f6b#rd)
   
@@ -104,9 +120,6 @@
   
 - [全网最详细4W字Flink入门笔记（下）](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247485365&idx=1&sn=c99d1e392440cad85342fdc950afc7f9&chksm=cf847470f8f3fd6632b34a42d8008f94430902630e4f5c8fb6ead1475facdc6e4ab39a5f828b#rd)
 
-### :grey_question:随写  ###
-
-- [Python爬虫超详细讲解（零基础入门，老年人都看的懂）](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247485434&idx=1&sn=8b399a4764bf0b2f438f5150b7f17439&chksm=cf84743ff8f3fd29dbb1bc3cc58fa5f0d0a6d5cd3d613d9bb96d89f4935fb00cb3fa7fd0c633#rd)
 
 ###  :bulb: 资源  ###
 

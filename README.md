@@ -61,6 +61,8 @@
   
 - [MySQL分区表详解](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484856&idx=1&sn=ffb350c8b1e74667fe15a5e808faec57&chksm=cf84767df8f3ff6b30ff91dd14a6f802eaac01076dcc8b988a18f1a529f21a6266d34e34c4d7#rd)
 
+- [缓存和数据库一致性问题，看这篇就够了](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486196&idx=1&sn=e9dcd1824583546aada0096e457afda0&chksm=cf847931f8f3f02780828e9fb2b2f36d018d74583fb7091bdbe6b7565bdfa10a396b4bfa9965#rd)
+
 ###  :envelope: Redis  ###
 
 - [Redis类型(type)与编码(encoding)](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484356&idx=1&sn=7066a0a40d7735815ed4feea278cab9d&chksm=cf847001f8f3f917960885f5f51d73a5bf576a80bd992077e94b2985dd0216165b99406b2a4a#rd)
@@ -75,6 +77,13 @@
   
 - [非看不可的Redis持久化](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484435&idx=1&sn=e02f552e3d943787fdd5442ab49eb95a&chksm=cf8477d6f8f3fec05b7b8441cc19898bf9a4c4e9ffaa72827eba2e20735a0f37f840c4e2e495#rd)
 
+- [深度剖析：Redis分布式锁到底安全吗？看完这篇文章彻底懂了！](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486194&idx=1&sn=59c36ccae0a67063e4b29aba5084ffe0&chksm=cf847937f8f3f0211b989c65ff07c8b142ddd7752592f018488cb852a9062b587bbe8b2b3d3e#rd)
+
+- [Redis为什么变慢了？一文讲透如何排查Redis性能问题 | 万字长文](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486198&idx=1&sn=e4b34ef7889bb95260e3a636662a7192&chksm=cf847933f8f3f025a1b00fc965781a33024158a4275ebaf2da393c403500a86d9c04af16ce40#rd)
+
+- [Redis最佳实践：7个维度+43条使用规范，带你彻底玩转Redis | 附实践清单](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486200&idx=1&sn=52dc758e32d138efcba25a7a47aec23d&chksm=cf84793df8f3f02b497d68f6f9407f7681b7eda3b2c88c87ac0f0411a7d0df4cf2ec8b9ba781#rd)
+
+- [颠覆认知——Redis会遇到的15个「坑」，你踩过几个？](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486202&idx=1&sn=5fee614b5272fb9e3522f446bddc6132&chksm=cf84793ff8f3f02961bdccd2310d052231bc3023cd609afe71d7e648bcda48aa2c57eed65371#rd)
 ###  :lock:Elasticsearch  ###
 - [学好Elasticsearch系列-核心概念](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247485450&idx=1&sn=b23b362f8baac883e6a64b0cb05b184d&chksm=cf847bcff8f3f2d98ef829ff3f7c8cee59600b6b2c683564e2ab6af2c0547fc67b8ccbc837e9#rd)
   
@@ -103,6 +112,8 @@
 - [高并发系统设计之限流](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484266&idx=1&sn=1c86eb7d383afc69a396122befd775c3&chksm=cf8470aff8f3f9b90389d9d360e8c23b4c0ed97b457657e6a3152aa5ac4a2c72c74815b8a56f#rd)
   
 - [高并发系统设计之缓存](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484319&idx=1&sn=c43b365f94a2ee243990d13cb1805bdd&chksm=cf84705af8f3f94c0b78e90667918fd88744b03d993615f22a90610463f67c8692ecf34971ba#rd)
+
+- [搞懂异地多活，看这篇就够了](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486192&idx=1&sn=6c82786cf2403486d81f375be684f228&chksm=cf847935f8f3f023a167ea3272a35979ee623dd0207acb70a0898148a1b18a15df01a49e54d8#rd)
 
 ### :dash:编程语言  ###
 

@@ -33,9 +33,9 @@
   
 - [GC的前置工作，聊聊GC是如何快速枚举根节点的](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486168&idx=1&sn=9eef35ec701b5c2f8097641b7e69ae71&chksm=cf84791df8f3f00b1e85039f31b17e00bf9cb624bbee638efeca110e51df6c6b6ba6363705ee#rd)
   
-- [JVM是如何解决跨代引用问题的？](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484071&idx=1&sn=ab54a47fc650bc3bfff420d1b8b086db&chksm=cf847162f8f3f874a85f617e0c23b7b077659286a14345d5aa4b09c5e50b3c5f545eba9029e1#rd)
+- [GC面临的困境，JVM是如何解决跨代引用的？](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486242&idx=1&sn=83d4ace26fea86b0f16e93e25b3cdadf&chksm=cf8478e7f8f3f1f17a65a7fc0d25237e8f25b90f300085bb5a7e8128f7d80f5ba1a02e5a6c2f#rd)
   
-- [一文弄懂三色标记算法](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484079&idx=1&sn=7f584b390a565b1a3b0e4b72913c76ce&chksm=cf84716af8f3f87cd85a90cc722943a04acfca0f176611514125b41a7961f1ad202982aba636#rd)
+- [昨晚做梦面试官问我三色标记算法](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486265&idx=1&sn=1464f25915c2c09ef65b784985b76fa3&chksm=cf8478fcf8f3f1ea80715ae949c1b4aec988368ead269c746d38244ae62028948a199f099d14#rd)
   
 - [垃圾收集器必问系列—CMS](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484088&idx=1&sn=ea20a3a9c2870dade04177c8ea074f44&chksm=cf84717df8f3f86bd1a0842db66f1f013394be77c3e31db9eb070cec9c8a36f462bd378e3ed3#rd)
   
@@ -139,4 +139,4 @@
 # 关注我，我们一起交流技术
 
 <a name="微信"></a>  <a name="公众号"></a>
-![公众号.jpg](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScMuzzTENRgicfnr91C5Bg9QNgMZrxFGlGXnTlXIGAKfKAibKRGJ2QrWoVBXhxpibTQxptf8MsPTyHvSg/640?wx_fmt=jpeg)
+![公众号.jpg](https://mmbiz.qpic.cn/mmbiz_jpg/jC8rtGdWScMuzzTENRgicfnr91C5Bg9QNgMZrxFGlGXnTlXIGAKfKAibKRGJ2QrWoVBXhxpibTQxptf8MsPTyHvSg/640)

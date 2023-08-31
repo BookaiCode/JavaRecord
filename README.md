@@ -14,7 +14,7 @@
 
 ###  :star: Java  ###
 
-- [线程私有变量ThreadLocal详解](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484144&idx=1&sn=11723df64dfa87fc99dedf86e205e7b9&chksm=cf847135f8f3f8231a2d3502542a9d38b8140a9a4eb4ede9101a26ced5fc917e94838825d713#rd)
+- [深入详解ThreadLocal](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486776&idx=1&sn=f4425cb88bc5393e4d5125f5fd08ed68&chksm=cf847efdf8f3f7ebc79c5bcd3c47f1fc2f83abf119c2b22782cc90a1c69f606a95a4051dab53#rd)
 
 - [使用Optional优雅避免空指针异常](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484348&idx=1&sn=55194e8ef568b4bbe5371db0f87535cb&chksm=cf847079f8f3f96f01617968d59616b87dfc945c1cdf0892b242c036a0949814ae7607c508e5#rd)
 

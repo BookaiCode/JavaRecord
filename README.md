@@ -103,7 +103,7 @@
 
 ###  :date:框架  ###
 
-- [本地缓存无冕之王Caffeine Cache](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484286&idx=1&sn=db26e0fd1cf747e9d79e9a6fc0259bde&chksm=cf8470bbf8f3f9ad7fcf3298c563fc46df91c39f03d2a7ac7547d6d391d6e615d57bf88e97b8#rd)
+- [本地缓存无冕之王Caffeine Cache](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486885&idx=1&sn=37c7a9461402bd97822295cf51361777&chksm=cf847e60f8f3f776eb3b477decfbac55dc8b7ae1cf607ef68fbee89dbe02d40a800a92fabec7#rd)
 
 ###  :fire:架构设计  ###
 
@@ -111,7 +111,7 @@
   
 - [高并发系统设计之限流](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486860&idx=1&sn=488b71d97b0d23b20904c53098386ce3&chksm=cf847e49f8f3f75f922178f42aa0a748c651b5775acb071f2a82e3263324fa1f0ee3f8ffff37#rd)
   
-- [高并发系统设计之缓存](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484319&idx=1&sn=c43b365f94a2ee243990d13cb1805bdd&chksm=cf84705af8f3f94c0b78e90667918fd88744b03d993615f22a90610463f67c8692ecf34971ba#rd)
+- [高并发系统设计之缓存](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486898&idx=1&sn=1ddbbda6f69fb16b6c576b9c892b8c7d&chksm=cf847e77f8f3f761698fdacd0f2fb3753afa6617fd2037c6b9acbff3aa50b2120a5a8cf89140#rd)
 
 - [搞懂异地多活，看这篇就够了](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486192&idx=1&sn=6c82786cf2403486d81f375be684f228&chksm=cf847935f8f3f023a167ea3272a35979ee623dd0207acb70a0898148a1b18a15df01a49e54d8#rd)
 

@@ -16,7 +16,7 @@
 
 - [深入详解ThreadLocal](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486776&idx=1&sn=f4425cb88bc5393e4d5125f5fd08ed68&chksm=cf847efdf8f3f7ebc79c5bcd3c47f1fc2f83abf119c2b22782cc90a1c69f606a95a4051dab53#rd)
 
-- [使用Optional优雅避免空指针异常](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484348&idx=1&sn=55194e8ef568b4bbe5371db0f87535cb&chksm=cf847079f8f3f96f01617968d59616b87dfc945c1cdf0892b242c036a0949814ae7607c508e5#rd)
+- [使用Optional优雅避免空指针异常](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486914&idx=1&sn=b2b0f2c41b8168fbfcf1df21a3e00acb&chksm=cf847e07f8f3f711de06cb9269ba41541ec9399a56963768add081031566bf7fa49cbb6f7fa0#rd)
 
 - [我画了35张图就是为了让你深入 AQS](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486172&idx=1&sn=b39cccd87dcd21176597dce0b15f7232&chksm=cf847919f8f3f00f86219d44cd95badee969d754aec89e644992437f2e8e0f7ad784695b4d90#rd)
 

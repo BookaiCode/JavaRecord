@@ -65,13 +65,13 @@
 
 ###  :envelope: Redis  ###
 
-- [Redis类型(type)与编码(encoding)](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484356&idx=1&sn=7066a0a40d7735815ed4feea278cab9d&chksm=cf847001f8f3f917960885f5f51d73a5bf576a80bd992077e94b2985dd0216165b99406b2a4a#rd)
+- [Redis类型(Type)与编码(Encoding)](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486922&idx=1&sn=98b7e28fc9ed20b69dc236605dfd1c34&chksm=cf847e0ff8f3f7197ece7d7b96c7fa82328d7e66b969a37246ac51f4c4dd21056540b046cbe6#rd)
   
 - [布隆过滤器](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484400&idx=1&sn=8d480b6b87ee2330e1e5f181fbf5f71a&chksm=cf847035f8f3f923699cd0b3c9137aa6bd596abd0242abe73abeee3179392794538e87e2dc42#rd)
   
 - [Redis跟MySQL的双写问题](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484390&idx=1&sn=de37dc02c20f3b471404c507c3741550&chksm=cf847023f8f3f935233feb3c575c7798e41d695347f11f502a75f25ba02b479ad152572c666e#rd)
   
-- [Redis内存碎片和Pipeline管道](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484383&idx=1&sn=a6b26a57d3d02d28e5a716b978f67494&chksm=cf84701af8f3f90c0e9da088ece41e31dd5d095228e6c8e46535cb3bd0874e27a264994b64d2#rd)
+- [Redis内存碎片：深度解析与优化策略](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486935&idx=1&sn=0b41d8807b6f0cdd06172f587884aa7a&chksm=cf847e12f8f3f70469ee692017388360a767175c9a3cbe482f2d93232c52540e43e5c8c8034e#rd)
   
 - [Redis中的BigKey问题：排查与解决思路](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484415&idx=1&sn=39cb685de9880bbe8fb108518cd5d54d&chksm=cf84703af8f3f92ca802e8e567a1f9bcdd038574113fe7aa68091db9f32cd86f6957862ee83a#rd)
   

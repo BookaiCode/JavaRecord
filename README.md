@@ -45,7 +45,7 @@
 
 ###  :hammer: MySQL  ###
 
-- [MySQL双写缓冲区(Doublewrite Buffer)](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484456&idx=1&sn=b5154c5eb26b969655c1b430792e0cb6&chksm=cf8477edf8f3fefbe0c95c2074a461ab12c01926654d995ad7844cba332fda7744da6b47ddc5#rd)
+- [深入解析 MySQL 双写缓冲区](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487013&idx=1&sn=beae861ca0f148e010d4170d14f67fdd&chksm=cf847de0f8f3f4f631273fbc7b9739239772cf90ad94fe78e83eb006d6a700ba2f00faffac09#rd)
 
 - [再深入一点|binlog和relay-log到底长啥样？](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486183&idx=1&sn=adc83df6c78e53ed1aefec7edc40ed63&chksm=cf847922f8f3f034beb08fc0a6fa2df8acb64902adff6927b71b5582e54444baa5c7265f7db8#rd)
 
@@ -53,13 +53,13 @@
 
 - [听说你对explain 很懂？](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486188&idx=1&sn=4ebf475e7287e4b9cc0e37fdff0c18af&chksm=cf847929f8f3f03fba7173a17f8a04a677db9af91355cba552f5156b7fc9424ccf0fd87f8488#rd)
   
-- [MMR(Multi-Range Read Optimization)](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484466&idx=1&sn=29b6a9adfa2fee52e6391509d1b8c73f&chksm=cf8477f7f8f3fee1ea1793924cf8475f7581a2770f8804a54a60c61f57aac4ce64dff723c308#rd)
+- [深入浅出MySQL MRR（Multi-Range Read）](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487041&idx=1&sn=66921cd6949db1389a0f02b3764b250f&chksm=cf847d84f8f3f4925b6506aeabe55308c85a68cb1fb8bf09aa99eca721d881246700bd9851a4#rd)
 
 - [拿捏！隔离级别、幻读、Gap Lock、Next-Key Lock](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486190&idx=1&sn=c274fbc3daed3d1ac3a1ce5bd0009b68&chksm=cf84792bf8f3f03d07e2855570164cbfc0f0a7fbb0bba1fd50c8b7b2155c555c4438b625f395#rd)
   
-- [MySQL中的Join 的算法（NLJ、BNL、BKA）](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484480&idx=1&sn=e75482a0fd8a866d9a9565aa9e659009&chksm=cf847785f8f3fe93195de380f7cff3efc8950a2cb49127a669f6b14a30e2fa5c13285e905f6b#rd)
+- [深入理解MySQL中的Join算法](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487068&idx=1&sn=042ab289718dbdaaea1b62854610efb7&chksm=cf847d99f8f3f48fd0aa04eeb2f6932bc826770f80911eec2fc571bdc7a50abc387714488d72#rd)
   
-- [MySQL分区表详解](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484856&idx=1&sn=ffb350c8b1e74667fe15a5e808faec57&chksm=cf84767df8f3ff6b30ff91dd14a6f802eaac01076dcc8b988a18f1a529f21a6266d34e34c4d7#rd)
+- [MySQL分区表详解](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487126&idx=1&sn=d81d7fa7b2befa0637bc9df5f4292915&chksm=cf847d53f8f3f445c92c1ae37478e47be947829a70b68d1e0f7f7d74af2d7ee15e6fca657845#rd)
 
 - [缓存和数据库一致性问题，看这篇就够了](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486196&idx=1&sn=e9dcd1824583546aada0096e457afda0&chksm=cf847931f8f3f02780828e9fb2b2f36d018d74583fb7091bdbe6b7565bdfa10a396b4bfa9965#rd)
 
@@ -69,15 +69,15 @@
 
 - [Redis性能优化：理解与使用Redis Pipeline](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486953&idx=1&sn=76365046920ead36714bbdf64300739b&chksm=cf847e2cf8f3f73ab5dc16d82817bde96a5ba5f16903896bae2943773df87a11153c612eeeb9#rd)
   
-- [布隆过滤器](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484400&idx=1&sn=8d480b6b87ee2330e1e5f181fbf5f71a&chksm=cf847035f8f3f923699cd0b3c9137aa6bd596abd0242abe73abeee3179392794538e87e2dc42#rd)
+- [布隆过滤器：原理与应用](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487003&idx=1&sn=c98c8a0643ae56ac0d81572aeabcc279&chksm=cf847ddef8f3f4c86f14b317375e395124f9278e5dbd7daec854a8a342f77992f1e6b9775249#rd)
   
-- [Redis跟MySQL的双写问题](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484390&idx=1&sn=de37dc02c20f3b471404c507c3741550&chksm=cf847023f8f3f935233feb3c575c7798e41d695347f11f502a75f25ba02b479ad152572c666e#rd)
+- [探索 Redis 与 MySQL 的双写问题](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486966&idx=1&sn=1aa2fc4d096242a8b725e01d45327a0c&chksm=cf847e33f8f3f72529da952b0621f7faf1756e5fd24e50c0d1896d98eab097e5bbf74aa218dd#rd)
   
 - [Redis内存碎片：深度解析与优化策略](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486935&idx=1&sn=0b41d8807b6f0cdd06172f587884aa7a&chksm=cf847e12f8f3f70469ee692017388360a767175c9a3cbe482f2d93232c52540e43e5c8c8034e#rd)
   
-- [Redis中的BigKey问题：排查与解决思路](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484415&idx=1&sn=39cb685de9880bbe8fb108518cd5d54d&chksm=cf84703af8f3f92ca802e8e567a1f9bcdd038574113fe7aa68091db9f32cd86f6957862ee83a#rd)
+- [Redis中的Big Key问题：排查与解决思路](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487157&idx=1&sn=9cc48fd498f6633fdc49c11f7cd6b88f&chksm=cf847d70f8f3f466319083703cff3623d0ec92a6d47d9594c4b0547d9489805dfefba2ecd179#rd)
   
-- [非看不可的Redis持久化](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484435&idx=1&sn=e02f552e3d943787fdd5442ab49eb95a&chksm=cf8477d6f8f3fec05b7b8441cc19898bf9a4c4e9ffaa72827eba2e20735a0f37f840c4e2e495#rd)
+- [Redis持久化深度解析](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487143&idx=1&sn=9255acf72b0c0e7ae21e1df5e1b532a7&chksm=cf847d62f8f3f474770759a62f9545f644743f12a78bf2aeee954d26bbf62f682bcdea72b09b#rd)
 
 - [深度剖析：Redis分布式锁到底安全吗？看完这篇文章彻底懂了！](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486194&idx=1&sn=59c36ccae0a67063e4b29aba5084ffe0&chksm=cf847937f8f3f0211b989c65ff07c8b142ddd7752592f018488cb852a9062b587bbe8b2b3d3e#rd)
 
@@ -119,15 +119,15 @@
 
 ### :dash:编程语言  ###
 
-- [Scala初学者指南](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484574&idx=1&sn=85ac7b748ec8f22e3e8f8f42efca02d1&chksm=cf84775bf8f3fe4d2779871e106e1946293bb57d6f85ad44aa1f20fe467e9402a26807a532b4#rd)
+- [Scala语言入门：初学者的基础语法指南](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487245&idx=1&sn=d089e22890f1f7449b7cf34e3cf2f6ed&chksm=cf847cc8f8f3f5deb39556f4229bafb6f1498906dc1d75040f90817bf0396117a7c2cdb498f9#rd)
   
-- [Groovy初学者指南](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484641&idx=1&sn=7243e662d2b0a811f1be745777c30420&chksm=cf847724f8f3fe329f4414fb3fa9c262e0d2985f6996b64b519b79b1c6ae3f65fb894d27bb76#rd)
+- [Groovy 初学者指南](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487066&idx=1&sn=da9e3a9aff377d383e34e537e2f55666&chksm=cf847d9ff8f3f489011f26a784302ee68b9c1d7d57d52bc2c924a7c9b1a5f528ef2a417114c0#rd)
 
 ### :eyes:大数据  ###
 
-- [Spark入门这篇就够了（万字长文）](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484731&idx=1&sn=033b31376869f2046219dfe28707e43d&chksm=cf8476fef8f3ffe86a1910e5948afddba464e6cc186adb3ecb8ca62f612a4110b71ada2370cc#rd)
+- [Spark入门指南：从基础概念到实践应用全解析](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487398&idx=1&sn=077859e1109e07b1469d242ec2b8091a&chksm=cf847c63f8f3f575e50012ef3667d9724998f07e32ebd27b6e3a37c5bdf2251d02e89030cff0#rd)
   
-- [一篇文章带你入门HBase](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484823&idx=1&sn=4f8204e007c2201962cd707fc5668242&chksm=cf847652f8f3ff443ef516bf490656b21891eee42382970435a25451948daf89c2d72cfad96f#rd)
+- [HBase入门指南](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487105&idx=1&sn=2ee82c9b239aa502bd3dffcf320b3f93&chksm=cf847d44f8f3f452e1b8ac83b9f62f380e349615b67da92343539d4014077c2ad9e787e256cc#rd)
   
 - [全网最详细4W字Flink入门笔记（上）](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247485174&idx=1&sn=4cbd4ce941458fa576febb5021d1942f&chksm=cf847533f8f3fc25fa6e9c0c6de69b68b3f424aad52e6846dca8641d11a8be7ea8614682ad64#rd)
   

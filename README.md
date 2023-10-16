@@ -66,6 +66,8 @@
 ###  :envelope: Redis  ###
 
 - [Redis类型(Type)与编码(Encoding)](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486922&idx=1&sn=98b7e28fc9ed20b69dc236605dfd1c34&chksm=cf847e0ff8f3f7197ece7d7b96c7fa82328d7e66b969a37246ac51f4c4dd21056540b046cbe6#rd)
+
+- [Redis性能优化：理解与使用Redis Pipeline](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486953&idx=1&sn=76365046920ead36714bbdf64300739b&chksm=cf847e2cf8f3f73ab5dc16d82817bde96a5ba5f16903896bae2943773df87a11153c612eeeb9#rd)
   
 - [布隆过滤器](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247484400&idx=1&sn=8d480b6b87ee2330e1e5f181fbf5f71a&chksm=cf847035f8f3f923699cd0b3c9137aa6bd596abd0242abe73abeee3179392794538e87e2dc42#rd)
   

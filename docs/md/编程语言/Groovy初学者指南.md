@@ -1,18 +1,16 @@
-[TOC]
-
-## 摘要
-
 Groovy是一种基于Java平台的动态编程语言，它结合了Python、Ruby和Smalltalk等语言的特性，同时与Java无缝集成。在本篇博客中，我们将探讨Groovy与Java之间的联系与区别，深入了解Groovy的语法，并展示如何在Java中使用GroovyShell来运行Groovy脚本。
 
-## Groovy与Java的联系和区别
+## Groovy & Java
 
-Groovy与Java之间有着紧密的联系，同时也存在一些重要的区别。首先，Groovy是一种动态语言，它允许在运行时动态修改代码。这使得Groovy在处理反射、元编程和脚本化任务时更加灵活。与此相反，Java是一种静态类型的编程语言，它要求在编译时就要确定类型和结构。
+Groovy与Java之间有着紧密的联系，同时也存在一些重要的区别。
 
-另一个联系和区别在于Groovy与Java代码的互操作性。**Groovy可以直接调用Java类和库。这意味着可以在Groovy中使用Java类，也可以在Java中使用Groovy类。这种无缝集成使得Groovy成为Java开发人员的有力补充**。
+首先，Groovy是一种动态语言，它允许在运行时动态修改代码。这使得Groovy在处理反射、元编程和脚本化任务时更加灵活。与此相反，Java是一种静态类型的编程语言，它要求在编译时就要确定类型和结构。
 
-Groovy与Java相比，提供了一些额外的功能和简化的语法。例如，Groovy支持动态类型、闭包、运算符重载等特性，使得代码更加简洁易读。下面我们将介绍Groovy的语法。
+另一个联系和区别在于Groovy与Java代码的互操作性。**Groovy可以直接调用Java类和库，这意味着可以在Groovy中使用Java类，也可以在Java中使用Groovy类。这种无缝集成使得Groovy成为Java开发人员的有力补充。**
 
-## Groovy的语法
+Groovy与Java相比，提供了一些额外的功能和简化的语法。例如，Groovy支持**动态类型**、**闭包**、**运算符重载**等特性，使得代码更加简洁易读。下面我们将介绍Groovy的语法。
+
+## Groovy语法
 
 Groovy的语法与Java有许多相似之处，但也有一些重要的区别。下面是一些Groovy语法的关键要点：
 
@@ -27,7 +25,7 @@ name = 42  // 可以将不同类型的值赋给同一个变量
 
 ### 元编程
 
-Groovy支持元编程，这意味着你可以在运行时动态修改类、对象和方法的行为。通过使用Groovy的元编程特性，你可以更加灵活地编写代码，并且可以根据需要动态添加、修改或删除类的属性和方法。例如：
+**Groovy支持元编程，这意味着你可以在运行时动态修改类、对象和方法的行为。**通过使用Groovy的元编程特性，你可以更加灵活地编写代码，并且可以根据需要动态添加、修改或删除类的属性和方法。例如：
 
 ```groovy
 class Person {
@@ -44,18 +42,6 @@ Person.metaClass.sayHello = {
 
 println(person.sayHello())  // 输出: Hello, Alice!
 ```
-
-### 处理集合的便捷方法
-
-Groovy提供了丰富的集合操作方法，使得处理集合变得更加便捷。它支持链式调用，可以通过一条语句完成多个集合操作，如过滤、映射、排序等。例如：
-
-```groovy
-def numbers = [1, 2, 3, 4, 5]
-def result = numbers.findAll { it % 2 == 0 }.collect { it * 2 }.sum()
-println(result)
-```
-
-在这个示例中，我们对列表中的偶数进行过滤、乘以2并求和。
 
 ### 闭包
 
@@ -199,6 +185,18 @@ numbers.each { number ->
 ```
 
 在这个示例中，我们使用`each`方法和闭包来遍历列表`numbers`中的每个元素，并打印出来。
+
+#### 处理集合的便捷方法
+
+Groovy提供了丰富的集合操作方法，使得处理集合变得更加便捷。它支持链式调用，可以通过一条语句完成多个集合操作，如过滤、映射、排序等。类似Java中的Stream流，例如：
+
+```groovy
+def numbers = [1, 2, 3, 4, 5]
+def result = numbers.findAll { it % 2 == 0 }.collect { it * 2 }.sum()
+println(result)
+```
+
+在这个示例中，我们对列表中的偶数进行过滤、乘以2并求和。
 
 ### 异常处理
 
@@ -404,4 +402,6 @@ Spock是一个基于Groovy的测试框架，它结合了JUnit和其他传统测�
 
 ## 总结
 
-Groovy是一种强大的动态编程语言，与Java完美结合，为开发人员提供了更灵活和简洁的语法。它与Java具有紧密的联系，可以无缝地与Java代码互操作。Groovy支持动态类型、闭包、运算符重载等特性，使得代码更易读、简洁。通过使用GroovyShell，您可以在Java项目中动态执行Groovy代码，利用Groovy的动态性和灵活性。
+Groovy是一种强大的动态编程语言，与Java完美结合，为开发人员提供了更灵活和简洁的语法。
+
+它与Java具有紧密的联系，可以无缝地与Java代码互操作。Groovy支持动态类型、闭包、运算符重载等特性，使得代码更易读、简洁。通过使用GroovyShell，你可以在Java项目中动态执行Groovy代码，利用Groovy的动态性和灵活性。

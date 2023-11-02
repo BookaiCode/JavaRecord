@@ -129,9 +129,9 @@
   
 - [HBase入门指南](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487105&idx=1&sn=2ee82c9b239aa502bd3dffcf320b3f93&chksm=cf847d44f8f3f452e1b8ac83b9f62f380e349615b67da92343539d4014077c2ad9e787e256cc#rd)
   
-- [全网最详细4W字Flink入门笔记（上）](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247485174&idx=1&sn=4cbd4ce941458fa576febb5021d1942f&chksm=cf847533f8f3fc25fa6e9c0c6de69b68b3f424aad52e6846dca8641d11a8be7ea8614682ad64#rd)
+- [全网最详细4W字Flink全面解析与实践(上)](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487459&idx=1&sn=a1826b2d592fff29b5e11a374468796a&chksm=cf847c26f8f3f53073cc24584264fa2752a26c98bbd31c86bcf519296789eff05d72904d27ac#rd)
   
-- [全网最详细4W字Flink入门笔记（下）](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247485365&idx=1&sn=c99d1e392440cad85342fdc950afc7f9&chksm=cf847470f8f3fd6632b34a42d8008f94430902630e4f5c8fb6ead1475facdc6e4ab39a5f828b#rd)
+- [全网最详细4W字Flink全面解析与实践(下)](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487535&idx=1&sn=736f1adda56cc550191f17e7111598b5&chksm=cf8463eaf8f3eafc38819e342705df1884683e03d5d39e9df876834ab0a84f61cc55923a5a03#rd)
 
 
 ###  :bulb: 资源  ###

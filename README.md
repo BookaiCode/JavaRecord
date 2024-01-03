@@ -26,6 +26,7 @@
 
 - [synchronized 的超多干货！](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486181&idx=1&sn=4cb9340ba2f19ccb19ccec0c54d61b86&chksm=cf847920f8f3f036cd752455290a97f6584f8a4ce9662d1102515dd5ed967c94e14cec7a767d#rd)
 
+- [ExecutorCompletionService详解](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487958&idx=1&sn=2ace7ac53d596cd909d1d1c7e96fbff2&chksm=cf846213f8f3eb05c9de1fab2c609f4774ca86497ad5542a26aae5928efd808bfd865738aa4f#rd)
 
 ###  :page_facing_up: JVM  ###
 

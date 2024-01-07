@@ -5,7 +5,7 @@
   <a href="https://blog.csdn.net/bookssea"><img src="https://img.shields.io/badge/csdn-CSDN-red.svg" alt="投稿"></a>
 </p>
 
-这是我学习Java的知识总结，我会按照下面的技术栈一步步完善整个知识体系。
+这是我学习Java的知识总结，我会按照下面的技术栈一步步完善整个知识体系。</br>
 分享给正在学习Java的你们，希望可以帮助你们少走一些弯路，一起学习进步！
 
 **文章首发公众号**。如果有帮助到大家，希望点个**Star**！让我有持续的动力，感谢🤝</br>

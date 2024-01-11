@@ -67,6 +67,8 @@
 
 - [缓存和数据库一致性问题，看这篇就够了](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486196&idx=1&sn=e9dcd1824583546aada0096e457afda0&chksm=cf847931f8f3f02780828e9fb2b2f36d018d74583fb7091bdbe6b7565bdfa10a396b4bfa9965#rd)
 
+- [全网最详细MVCC讲解，一篇看懂](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487999&idx=1&sn=8abdf89c27bbedd788d6ea260cb981c3&chksm=cf84623af8f3eb2cd63c4f6f80fda0822d14c3bbf49487f254377f13963ccaf89b1d04344128#rd)
+
 ###  :envelope: Redis  ###
 
 - [Redis类型(Type)与编码(Encoding)](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486922&idx=1&sn=98b7e28fc9ed20b69dc236605dfd1c34&chksm=cf847e0ff8f3f7197ece7d7b96c7fa82328d7e66b969a37246ac51f4c4dd21056540b046cbe6#rd)

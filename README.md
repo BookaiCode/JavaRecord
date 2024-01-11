@@ -13,8 +13,6 @@
 
 每周至少一篇的更新频率，没链接的是之后打算写的。
 
-:pencil2:  [写作自述](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486050&idx=1&sn=1105d28b8d3553715f425419ec9d8d18&chksm=cf8479a7f8f3f0b19425e08a00332bbce4e5333843cfd6dd6f35e892139810d86b778cd57d55#rd)
-
 ###  :star: Java  ###
 
 - [深入详解ThreadLocal](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486776&idx=1&sn=f4425cb88bc5393e4d5125f5fd08ed68&chksm=cf847efdf8f3f7ebc79c5bcd3c47f1fc2f83abf119c2b22782cc90a1c69f606a95a4051dab53#rd)

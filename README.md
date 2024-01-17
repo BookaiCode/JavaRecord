@@ -69,6 +69,8 @@
 
 - [全网最详细MVCC讲解，一篇看懂](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487999&idx=1&sn=8abdf89c27bbedd788d6ea260cb981c3&chksm=cf84623af8f3eb2cd63c4f6f80fda0822d14c3bbf49487f254377f13963ccaf89b1d04344128#rd)
 
+- [六个案例搞懂间隙锁](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247488470&idx=1&sn=2a2b56e35ac6e1bae83e1a7eadc743f1&chksm=cf846013f8f3e9051b5e0d3636bcf135b994d77039409f92b7faeccdedddb6d5cfda6eaf0984#rd)
+
 ###  :envelope: Redis  ###
 
 - [Redis类型(Type)与编码(Encoding)](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486922&idx=1&sn=98b7e28fc9ed20b69dc236605dfd1c34&chksm=cf847e0ff8f3f7197ece7d7b96c7fa82328d7e66b969a37246ac51f4c4dd21056540b046cbe6#rd)
@@ -157,6 +159,10 @@
   
 - [全网最详细4W字Flink全面解析与实践(下)](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487535&idx=1&sn=736f1adda56cc550191f17e7111598b5&chksm=cf8463eaf8f3eafc38819e342705df1884683e03d5d39e9df876834ab0a84f61cc55923a5a03#rd)
 
+
+### :jack_o_lantern:其他  ###
+
+- [良心推荐！几款收藏的神级IDEA插件分享](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247488457&idx=1&sn=f771ccebb84f226e7302b89caa5c056b&chksm=cf84600cf8f3e91aab4564d91feacb8822b53a2b3a79547439d64d2c0b7b293435a1ae79f994#rd)
 
 ###  :bulb: 资源  ###
 

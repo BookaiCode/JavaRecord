@@ -149,6 +149,12 @@
   
 - [Groovy 初学者指南](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487066&idx=1&sn=da9e3a9aff377d383e34e537e2f55666&chksm=cf847d9ff8f3f489011f26a784302ee68b9c1d7d57d52bc2c924a7c9b1a5f528ef2a417114c0#rd)
 
+### :satellite:设计模式  ###
+
+- [一文搞懂设计模式—策略模式](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247488583&idx=1&sn=2e4758ee1b48dc5884289d5ecb841491&chksm=cf846782f8f3ee946d514e6267a326facb6880002fb663ffdbc3347e1d89fab32b8c0f5764d9#rd)
+  
+- [一文搞懂设计模式—责任链模式](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247488600&idx=1&sn=dd004bacfe0262fcc0fd1d72ae506b7a&chksm=cf84679df8f3ee8bf7117c5bed745470475c1a35ee96fe2bb99e093d895b7b776ecf51bb31c2#rd)
+
 ### :eyes:大数据  ###
 
 - [Spark入门指南：从基础概念到实践应用全解析](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487398&idx=1&sn=077859e1109e07b1469d242ec2b8091a&chksm=cf847c63f8f3f575e50012ef3667d9724998f07e32ebd27b6e3a37c5bdf2251d02e89030cff0#rd)

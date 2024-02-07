@@ -155,6 +155,9 @@
   
 - [一文搞懂设计模式—责任链模式](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247488600&idx=1&sn=dd004bacfe0262fcc0fd1d72ae506b7a&chksm=cf84679df8f3ee8bf7117c5bed745470475c1a35ee96fe2bb99e093d895b7b776ecf51bb31c2#rd)
 
+- [一文搞懂设计模式—单例模式](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247488615&idx=1&sn=1f0f92f6180856dbf206706c071438a3&chksm=cf8467a2f8f3eeb4e24e6c42f7f8cd265c03939ffa7742d1445ed7dddc6b11bb63aa6b0eb95e#rd)
+
+
 ### :eyes:大数据  ###
 
 - [Spark入门指南：从基础概念到实践应用全解析](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487398&idx=1&sn=077859e1109e07b1469d242ec2b8091a&chksm=cf847c63f8f3f575e50012ef3667d9724998f07e32ebd27b6e3a37c5bdf2251d02e89030cff0#rd)

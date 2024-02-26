@@ -92,7 +92,7 @@
 - [Redis最佳实践：7个维度+43条使用规范，带你彻底玩转Redis | 附实践清单](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486200&idx=1&sn=52dc758e32d138efcba25a7a47aec23d&chksm=cf84793df8f3f02b497d68f6f9407f7681b7eda3b2c88c87ac0f0411a7d0df4cf2ec8b9ba781#rd)
 
 - [颠覆认知——Redis会遇到的15个「坑」，你踩过几个？](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486202&idx=1&sn=5fee614b5272fb9e3522f446bddc6132&chksm=cf84793ff8f3f02961bdccd2310d052231bc3023cd609afe71d7e648bcda48aa2c57eed65371#rd)
-###  :lock:Elasticsearch  ###
+###  :lock: Elasticsearch  ###
 
 - [一起学Elasticsearch系列-核心概念](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487646&idx=1&sn=381af0374eb1d512046315164a541211&chksm=cf84635bf8f3ea4d650dc00e277d273d9a1e7358ae884b3cfedaf9d172cb1f44df7775bf355a#rd)
 
@@ -127,11 +127,11 @@
 - [一起学Elasticsearch系列-索引管理](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487926&idx=1&sn=3e7a6e6de02de000657b142d4bee5e82&chksm=cf846273f8f3eb656a9be4fa060dc23f1aba6ac3ca0b41087511a5787fe8b523a4c1db9bda15#rd)
 
 
-###  :date:框架  ###
+###  :date: 框架  ###
 
 - [本地缓存无冕之王Caffeine Cache](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486885&idx=1&sn=37c7a9461402bd97822295cf51361777&chksm=cf847e60f8f3f776eb3b477decfbac55dc8b7ae1cf607ef68fbee89dbe02d40a800a92fabec7#rd)
 
-###  :fire:架构设计  ###
+###  :fire: 架构设计  ###
 
 - [高并发系统设计之负载均衡](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486811&idx=1&sn=5422c62878ee1ddcc6ee1da45deb78d7&chksm=cf847e9ef8f3f7889c94fe93796c87083ebb47680ef13b40a35f5127c293e5d44fd3621abd57#rd)
   
@@ -141,13 +141,13 @@
 
 - [搞懂异地多活，看这篇就够了](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486192&idx=1&sn=6c82786cf2403486d81f375be684f228&chksm=cf847935f8f3f023a167ea3272a35979ee623dd0207acb70a0898148a1b18a15df01a49e54d8#rd)
 
-### :dash:编程语言  ###
+### :dash: 编程语言  ###
 
 - [Scala语言入门：初学者的基础语法指南](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487245&idx=1&sn=d089e22890f1f7449b7cf34e3cf2f6ed&chksm=cf847cc8f8f3f5deb39556f4229bafb6f1498906dc1d75040f90817bf0396117a7c2cdb498f9#rd)
   
 - [Groovy 初学者指南](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487066&idx=1&sn=da9e3a9aff377d383e34e537e2f55666&chksm=cf847d9ff8f3f489011f26a784302ee68b9c1d7d57d52bc2c924a7c9b1a5f528ef2a417114c0#rd)
 
-### :satellite:设计模式  ###
+### :satellite: 设计模式  ###
 
 - [一文搞懂设计模式—策略模式](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247488583&idx=1&sn=2e4758ee1b48dc5884289d5ecb841491&chksm=cf846782f8f3ee946d514e6267a326facb6880002fb663ffdbc3347e1d89fab32b8c0f5764d9#rd)
   
@@ -155,8 +155,20 @@
 
 - [一文搞懂设计模式—单例模式](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247488615&idx=1&sn=1f0f92f6180856dbf206706c071438a3&chksm=cf8467a2f8f3eeb4e24e6c42f7f8cd265c03939ffa7742d1445ed7dddc6b11bb63aa6b0eb95e#rd)
 
+- [一文搞懂设计模式—观察者模式](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247488718&idx=1&sn=9486e6b494c666e805e321a74bac5591&chksm=cf84670bf8f3ee1da0e7f26963e007da8fa77e7190596c9a6f6296cf2cc70af2ec4c066b5906#rd)
 
-### :eyes:大数据  ###
+- [一文搞懂设计模式—门面模式](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247488730&idx=1&sn=0f63b2f54615d0647d4be22964dadea2&chksm=cf84671ff8f3ee0900b2cd3174ab8e66131308049648cc4e65d25215a54cc457cea1e73c8698#rd)
+
+- [一文搞懂设计模式—工厂方法模式](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247488747&idx=1&sn=025c94f5b66b4dae3ab6f62dc043a083&chksm=cf84672ef8f3ee38bfce967135b5d23a93c0d59ae502b06b3c85ac629e336d28a21f1e13784f#rd)
+
+- [一文搞懂设计模式—模板方法模式](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247488758&idx=1&sn=40385dc2cd049ab06c6403c47e1d5efa&chksm=cf846733f8f3ee2596eb459b9114e654e5ffd0ca1565931b742c65879a8603fc75c74880be58#rd)
+
+- [一文搞懂设计模式—适配器模式](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247488766&idx=1&sn=78bf2e392394bb28272cceb3dd300618&chksm=cf84673bf8f3ee2d8b6308d272e8cd3a0173bfd540639cd7c17c4c40f6bc3e25561a0889930d#rd)
+
+- [一文搞懂设计模式—装饰器模式](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247488773&idx=1&sn=287d0323b84eec284a56edceb1e5840e&chksm=cf8466c0f8f3efd6e8a8e5270ed10cf991c7b27a93521359274c2120d9e45e29b637e948650f#rd)
+
+
+### :eyes: 大数据  ###
 
 - [Spark入门指南：从基础概念到实践应用全解析](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487398&idx=1&sn=077859e1109e07b1469d242ec2b8091a&chksm=cf847c63f8f3f575e50012ef3667d9724998f07e32ebd27b6e3a37c5bdf2251d02e89030cff0#rd)
   
@@ -167,7 +179,7 @@
 - [全网最详细4W字Flink全面解析与实践(下)](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487535&idx=1&sn=736f1adda56cc550191f17e7111598b5&chksm=cf8463eaf8f3eafc38819e342705df1884683e03d5d39e9df876834ab0a84f61cc55923a5a03#rd)
 
 
-### :jack_o_lantern:其他  ###
+### :jack_o_lantern: 其他  ###
 
 - [良心推荐！几款收藏的神级IDEA插件分享](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247488457&idx=1&sn=f771ccebb84f226e7302b89caa5c056b&chksm=cf84600cf8f3e91aab4564d91feacb8822b53a2b3a79547439d64d2c0b7b293435a1ae79f994#rd)
 

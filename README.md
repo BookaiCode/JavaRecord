@@ -83,7 +83,7 @@
   
 - [Redis中的Big Key问题：排查与解决思路](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487157&idx=1&sn=9cc48fd498f6633fdc49c11f7cd6b88f&chksm=cf847d70f8f3f466319083703cff3623d0ec92a6d47d9594c4b0547d9489805dfefba2ecd179#rd)
   
-- [Redis持久化深度解析](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487143&idx=1&sn=9255acf72b0c0e7ae21e1df5e1b532a7&chksm=cf847d62f8f3f474770759a62f9545f644743f12a78bf2aeee954d26bbf62f682bcdea72b09b#rd)
+- [超详细！彻底说明白Redis持久化](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247488849&idx=1&sn=d15830cf43364a8c9e3c9292d53cce05&chksm=cf846694f8f3ef825cb84436e2c931d9e22c2cdf810a546a3edb301a539168e0ce33c868d115#rd)
 
 - [深度剖析：Redis分布式锁到底安全吗？看完这篇文章彻底懂了！](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486194&idx=1&sn=59c36ccae0a67063e4b29aba5084ffe0&chksm=cf847937f8f3f0211b989c65ff07c8b142ddd7752592f018488cb852a9062b587bbe8b2b3d3e#rd)
 
@@ -126,6 +126,8 @@
 
 - [一起学Elasticsearch系列-索引管理](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487926&idx=1&sn=3e7a6e6de02de000657b142d4bee5e82&chksm=cf846273f8f3eb656a9be4fa060dc23f1aba6ac3ca0b41087511a5787fe8b523a4c1db9bda15#rd)
 
+- [一起学Elasticsearch系列-Pipeline](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247488897&idx=1&sn=2d4adc6d38813efa5a66a4f7c2763375&chksm=cf846644f8f3ef52577656d9a6d9cf5dbaef7f6dc61d21df181c61279237380f9ddd111fad69#rd)
+
 
 ###  :date: 框架  ###
 
@@ -166,6 +168,10 @@
 - [一文搞懂设计模式—适配器模式](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247488766&idx=1&sn=78bf2e392394bb28272cceb3dd300618&chksm=cf84673bf8f3ee2d8b6308d272e8cd3a0173bfd540639cd7c17c4c40f6bc3e25561a0889930d#rd)
 
 - [一文搞懂设计模式—装饰器模式](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247488773&idx=1&sn=287d0323b84eec284a56edceb1e5840e&chksm=cf8466c0f8f3efd6e8a8e5270ed10cf991c7b27a93521359274c2120d9e45e29b637e948650f#rd)
+
+- [一文搞懂设计模式—代理模式](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247488866&idx=1&sn=d293faa2c918d85cc9cd8f6bc408b5a1&chksm=cf8466a7f8f3efb11ae68d7f7712bb22ceafae6f9d0529c235a1b1e02d183296c400211910b2#rd)
+
+- [一文搞懂设计模式—享元模式](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247488879&idx=1&sn=2cb5edc9bbb088fd6de2bf9d46cb76cf&chksm=cf8466aaf8f3efbce988a6bf96035714e5125ba8ddc6cfe02871ca73e61c814271608576ff13#rd)
 
 
 ### :eyes: 大数据  ###

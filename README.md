@@ -136,6 +136,8 @@
 
 - [12306技术内幕](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247489137&idx=1&sn=9f5857733a5bed241902fb4c4421adf3&chksm=cf8465b4f8f3eca2d7d65af8cd8a1b3e9b1b3b56d482eb09cdd5fdd0ae3b7744a3994c495cbf#rd)
 
+- [如何设计一个秒杀系统？](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247489153&idx=1&sn=a3709d78c765d335d75f9d98413ed71b&chksm=cf846544f8f3ec5261bbe9856d066ab96e2b254976bc21e919affc6216180de9947686b4cb21#rd)
+
 ### :dash: 编程语言  ###
 
 - [Scala语言入门：初学者的基础语法指南](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487245&idx=1&sn=d089e22890f1f7449b7cf34e3cf2f6ed&chksm=cf847cc8f8f3f5deb39556f4229bafb6f1498906dc1d75040f90817bf0396117a7c2cdb498f9#rd)

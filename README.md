@@ -45,7 +45,7 @@
   
 - [深入解析ZGC垃圾回收器](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486746&idx=1&sn=7257ecf8c36509d06be359e3889400f2&chksm=cf847edff8f3f7c96edc667051d9ef70537000202c1ec77699fa5e30e46c2c8ddabd122297f3#rd)
 
-###  :hammer: MySQL  ###
+###  :hammer: 数据库  ###
 
 - [深入解析 MySQL 双写缓冲区](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487013&idx=1&sn=beae861ca0f148e010d4170d14f67fdd&chksm=cf847de0f8f3f4f631273fbc7b9739239772cf90ad94fe78e83eb006d6a700ba2f00faffac09#rd)
 
@@ -68,6 +68,8 @@
 - [全网最详细MVCC讲解，一篇看懂](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487999&idx=1&sn=8abdf89c27bbedd788d6ea260cb981c3&chksm=cf84623af8f3eb2cd63c4f6f80fda0822d14c3bbf49487f254377f13963ccaf89b1d04344128#rd)
 
 - [六个案例搞懂间隙锁](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247488470&idx=1&sn=2a2b56e35ac6e1bae83e1a7eadc743f1&chksm=cf846013f8f3e9051b5e0d3636bcf135b994d77039409f92b7faeccdedddb6d5cfda6eaf0984#rd)
+
+- 分库分表核心理念
 
 ###  :envelope: Redis  ###
 

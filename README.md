@@ -69,7 +69,7 @@
 
 - [六个案例搞懂间隙锁](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247488470&idx=1&sn=2a2b56e35ac6e1bae83e1a7eadc743f1&chksm=cf846013f8f3e9051b5e0d3636bcf135b994d77039409f92b7faeccdedddb6d5cfda6eaf0984#rd)
 
-- 分库分表核心理念
+- [分库分表核心理念](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247489195&idx=1&sn=1e7ae88fa1f7e7267cefc7bdcf2371e3&chksm=cf84656ef8f3ec78b3120312fc328db17e69a9ad216a56c5e947a65fd12cecb0b2bb096c59a7#rd)
 
 ###  :envelope: Redis  ###
 

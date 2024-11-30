@@ -174,12 +174,10 @@
 ### :eyes: 大数据  ###
 
 - [Spark入门指南：从基础概念到实践应用全解析](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487398&idx=1&sn=077859e1109e07b1469d242ec2b8091a&chksm=cf847c63f8f3f575e50012ef3667d9724998f07e32ebd27b6e3a37c5bdf2251d02e89030cff0#rd)
-  
 - [HBase入门指南](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487105&idx=1&sn=2ee82c9b239aa502bd3dffcf320b3f93&chksm=cf847d44f8f3f452e1b8ac83b9f62f380e349615b67da92343539d4014077c2ad9e787e256cc#rd)
-  
 - [全网最详细4W字Flink全面解析与实践(上)](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487459&idx=1&sn=a1826b2d592fff29b5e11a374468796a&chksm=cf847c26f8f3f53073cc24584264fa2752a26c98bbd31c86bcf519296789eff05d72904d27ac#rd)
-  
 - [全网最详细4W字Flink全面解析与实践(下)](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487535&idx=1&sn=736f1adda56cc550191f17e7111598b5&chksm=cf8463eaf8f3eafc38819e342705df1884683e03d5d39e9df876834ab0a84f61cc55923a5a03#rd)
+- [压缩位图——Roaring Bitmap](https://mp.weixin.qq.com/s/U46_tD319CJaKJfGvl4Cfw)
 
 
 ### :jack_o_lantern: 其他  ###

@@ -186,6 +186,8 @@
 
 - [实战Arthas：常见命令与最佳实践](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247488559&idx=1&sn=4b5003cb33446ab4a6173285fe9d83d3&chksm=cf8467eaf8f3eefc033de8f63cba9f0d7b2b5eb0ccfb5209f458a9ab447367b34954f296638b#rd)
 
+- [Maven实战](https://mp.weixin.qq.com/s/ErtWrRNzjJcR2ettUhAxsQ)
+
 ###  :bulb: 资源  ###
 
 - [精品电子书（持续更新）](/docs/md/PDF.md)

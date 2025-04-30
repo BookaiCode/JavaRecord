@@ -183,10 +183,9 @@
 ### :jack_o_lantern: 其他  ###
 
 - [良心推荐！几款收藏的神级IDEA插件分享](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247488457&idx=1&sn=f771ccebb84f226e7302b89caa5c056b&chksm=cf84600cf8f3e91aab4564d91feacb8822b53a2b3a79547439d64d2c0b7b293435a1ae79f994#rd)
-
 - [实战Arthas：常见命令与最佳实践](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247488559&idx=1&sn=4b5003cb33446ab4a6173285fe9d83d3&chksm=cf8467eaf8f3eefc033de8f63cba9f0d7b2b5eb0ccfb5209f458a9ab447367b34954f296638b#rd)
-
 - [Maven实战](https://mp.weixin.qq.com/s/ErtWrRNzjJcR2ettUhAxsQ)
+- [不用Mockito写单元测试？你可能在浪费一半时间](https://mp.weixin.qq.com/s/NICubD9Yq0pn6qwpVIznfg)
 
 ###  :bulb: 资源  ###
 

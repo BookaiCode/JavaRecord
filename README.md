@@ -142,7 +142,7 @@
 
 - [Scala语言入门：初学者的基础语法指南](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487245&idx=1&sn=d089e22890f1f7449b7cf34e3cf2f6ed&chksm=cf847cc8f8f3f5deb39556f4229bafb6f1498906dc1d75040f90817bf0396117a7c2cdb498f9#rd)
 - [Groovy 初学者指南](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487066&idx=1&sn=da9e3a9aff377d383e34e537e2f55666&chksm=cf847d9ff8f3f489011f26a784302ee68b9c1d7d57d52bc2c924a7c9b1a5f528ef2a417114c0#rd)
-- [自研 DSL 神器：万字拆解 ANTLR 4 核心原理与高级应用]()
+- [自研 DSL 神器：万字拆解 ANTLR 4 核心原理与高级应用](https://mp.weixin.qq.com/s/nFiEqhi1B_SxrZGCAqLgLw)
 
 ### :satellite: 设计模式  ###
 

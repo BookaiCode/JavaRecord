@@ -32,18 +32,13 @@
 ###  :page_facing_up: JVM  ###
 
 - [面试官：JVM是如何判定对象已死的？学JVM必会的知识！](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486087&idx=1&sn=c6f1a9932961095ffdf2aef8a789e115&chksm=cf847942f8f3f0549c798671fe804c93378586b4fc547cce14db2359852ff0723a3aab64a187#rd)
-  
 - [GC的前置工作，聊聊GC是如何快速枚举根节点的](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486168&idx=1&sn=9eef35ec701b5c2f8097641b7e69ae71&chksm=cf84791df8f3f00b1e85039f31b17e00bf9cb624bbee638efeca110e51df6c6b6ba6363705ee#rd)
-  
 - [GC面临的困境，JVM是如何解决跨代引用的？](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486242&idx=1&sn=83d4ace26fea86b0f16e93e25b3cdadf&chksm=cf8478e7f8f3f1f17a65a7fc0d25237e8f25b90f300085bb5a7e8128f7d80f5ba1a02e5a6c2f#rd)
-  
 - [昨晚做梦面试官问我三色标记算法](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486265&idx=1&sn=1464f25915c2c09ef65b784985b76fa3&chksm=cf8478fcf8f3f1ea80715ae949c1b4aec988368ead269c746d38244ae62028948a199f099d14#rd)
-  
 - [深入解析CMS垃圾回收器](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486628&idx=1&sn=984b273af7d1d0398517a2f5442ffb38&chksm=cf847f61f8f3f677372a5ebc9f81403a8324be1bed49bf92e763882715c943324de4f1b0139a#rd)
-  
 - [深入解析G1垃圾回收器](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486736&idx=1&sn=5e0710485783c3bcc4854a10412b9a40&chksm=cf847ed5f8f3f7c3826fa8c67bc76ce8dd218a725ee04f54cdafa27e14d190f5c92332589ae2#rd)
-  
 - [深入解析ZGC垃圾回收器](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486746&idx=1&sn=7257ecf8c36509d06be359e3889400f2&chksm=cf847edff8f3f7c96edc667051d9ef70537000202c1ec77699fa5e30e46c2c8ddabd122297f3#rd)
+- 面试官：响应式编程和虚拟线程怎么选？看完这篇不再被问倒
 
 ###  :hammer: MySQL  ###
 

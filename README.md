@@ -14,20 +14,14 @@
 ###  :star: Java  ###
 
 - [深入详解ThreadLocal](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486776&idx=1&sn=f4425cb88bc5393e4d5125f5fd08ed68&chksm=cf847efdf8f3f7ebc79c5bcd3c47f1fc2f83abf119c2b22782cc90a1c69f606a95a4051dab53#rd)
-
 - [使用Optional优雅避免空指针异常](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486914&idx=1&sn=b2b0f2c41b8168fbfcf1df21a3e00acb&chksm=cf847e07f8f3f711de06cb9269ba41541ec9399a56963768add081031566bf7fa49cbb6f7fa0#rd)
-
 - [我画了35张图就是为了让你深入 AQS](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486172&idx=1&sn=b39cccd87dcd21176597dce0b15f7232&chksm=cf847919f8f3f00f86219d44cd95badee969d754aec89e644992437f2e8e0f7ad784695b4d90#rd)
-
 - [一个 static 还能难得住我？](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486175&idx=1&sn=041c85c052c11d2d15243994bc46d90a&chksm=cf84791af8f3f00c90a18b29d1fa47c9bcd713651514fc5ce4a9f82d656fe637bb21d45c42be#rd)
-
 - [原来这才是动态代理！！！](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486178&idx=1&sn=9610c1a0fa1df4c69558408ab2a3fcae&chksm=cf847927f8f3f0315b0c86f9b577926820c3d264d605149f850b597fcd17fafe432d82aaffcf#rd)
-
 - [synchronized 的超多干货！](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486181&idx=1&sn=4cb9340ba2f19ccb19ccec0c54d61b86&chksm=cf847920f8f3f036cd752455290a97f6584f8a4ce9662d1102515dd5ed967c94e14cec7a767d#rd)
-
 - [ExecutorCompletionService详解](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247487958&idx=1&sn=2ace7ac53d596cd909d1d1c7e96fbff2&chksm=cf846213f8f3eb05c9de1fab2c609f4774ca86497ad5542a26aae5928efd808bfd865738aa4f#rd)
-
 - [CompletableFuture深度解析](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247488046&idx=1&sn=2bb0b6dc4576278ff2e7f9b917cb6fe8&chksm=cf8461ebf8f3e8fd013d08c5028d41281444b1ac1d60f1706c841c4b444a4235d82c84644b9b#rd)
+- [面试官：响应式编程和虚拟线程怎么选？看完这篇不再被问倒](https://mp.weixin.qq.com/s/V7H_hyjycT3n1Rr7FBOrYQ)
 
 ###  :page_facing_up: JVM  ###
 
@@ -38,7 +32,6 @@
 - [深入解析CMS垃圾回收器](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486628&idx=1&sn=984b273af7d1d0398517a2f5442ffb38&chksm=cf847f61f8f3f677372a5ebc9f81403a8324be1bed49bf92e763882715c943324de4f1b0139a#rd)
 - [深入解析G1垃圾回收器](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486736&idx=1&sn=5e0710485783c3bcc4854a10412b9a40&chksm=cf847ed5f8f3f7c3826fa8c67bc76ce8dd218a725ee04f54cdafa27e14d190f5c92332589ae2#rd)
 - [深入解析ZGC垃圾回收器](https://mp.weixin.qq.com/s?__biz=Mzg4Nzc3NjkzOA==&mid=2247486746&idx=1&sn=7257ecf8c36509d06be359e3889400f2&chksm=cf847edff8f3f7c96edc667051d9ef70537000202c1ec77699fa5e30e46c2c8ddabd122297f3#rd)
-- 面试官：响应式编程和虚拟线程怎么选？看完这篇不再被问倒
 
 ###  :hammer: MySQL  ###
 

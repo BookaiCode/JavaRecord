@@ -173,6 +173,8 @@
 - [深度解析Skills：从Prompt到能力复用的技术革命](https://mp.weixin.qq.com/s/Se6_L1PbhlEUGaBSY8sZsQ)
 - [为什么ChatGPT能听懂你说的话？Embedding技术揭秘](https://mp.weixin.qq.com/s/CoHcpXIaamdfmXCf-3qlgw)
 - [RAG详解：让大模型看见你的私有知识](https://mp.weixin.qq.com/s/mAC3DeqPLM41LyfGh2QjUw)
+- ReAct：让大模型学会边想边做
+- 10分钟掌握 JSON-RPC 协议，面试加分、设计不踩坑
 
 
 ### :jack_o_lantern: 其他  ###

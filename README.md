@@ -175,6 +175,7 @@
 - [RAG详解：让大模型看见你的私有知识](https://mp.weixin.qq.com/s/mAC3DeqPLM41LyfGh2QjUw)
 - [ReAct：让大模型学会边想边做](https://mp.weixin.qq.com/s/hfFUg9aHwQCrxRr2HYNbzw)
 - [10分钟掌握 JSON-RPC 协议，面试加分、设计不踩坑](https://mp.weixin.qq.com/s/TQyMsbziVHUkjrTB2ivFvg)
+- [Hermes 深度解析：自我进化的 AI 智能体新范式](https://mp.weixin.qq.com/s/Heow6F-aQ4GKCQb_FcqbdA)
 
 
 ### :jack_o_lantern: 其他  ###
